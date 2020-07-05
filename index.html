@@ -4,7 +4,23 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
           <title>Highway - Free CSS Template</title>
-          
+          <script src="src/basic-panchanga.js"></script>
+          <script src="src/panchang.js"></script>
+
+          <script>
+            var t= new Date();
+            panchang.calculate(t, function() {
+              document.getElementById("day").innerHTML=panchang.Day.name;
+              document.getElementById("tithi").innerHTML=panchang.Tithi.name;
+              document.getElementById("nakshtra").innerHTML=panchang.Nakshatra.name;
+              document.getElementById("karna").innerHTML=panchang.Karna.name;
+              document.getElementById("yoga").innerHTML=panchang.Yoga.name;
+              document.getElementById("raasi").innerHTML=panchang.Raasi.name;
+              document.getElementById("ayanamsa").innerHTML=panchang.Ayanamsa.name;
+              document.getElementById("Gulikhala").innerHTML = gulikhal;
+              document.getElementById("Yamagandakhala").innerHTML = yamaganda;
+            });
+          </script>
 
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
@@ -351,48 +367,48 @@ https://templatemo.com/tm-520-highway
                       <tr>
                         
                         <td>Day:</td>
-                        <td  colspan="3" style="text-align: center;">Otto</td>
+                        <td  colspan="3" id='day' style="text-align: center;"></td>
                         
                       </tr>
                       <tr>
                       
                         <td>Gulikhala:</td>
-                        <td  colspan="3" style="text-align: center;">Otto</td>
+                        <td  colspan="3" id=Gulikhala style="text-align: center;"></td>
                       </tr>
                       <tr>
                       
                         <td>Yamagandakhala:</td>
-                        <td  colspan="3" style="text-align: center;">Otto</td>
+                        <td  colspan="3" id=Yamagandakhala style="text-align: center;"></td>
                       </tr>
                       <tr>
                       
                         <td>Tithi:</td>
-                        <td  colspan="3" style="text-align: center;">Otto</td>
+                        <td  colspan="3" id=tithi style="text-align: center;"></td>
                       </tr>
                       <tr>
                       
                         <td>Nakshtra:</td>
-                        <td  colspan="3" style="text-align: center;">Otto</td>
+                        <td  colspan="3" id=nakshtra style="text-align: center;"></td>
                       </tr>
                       <tr>
                       
                         <td>Karna:</td>
-                        <td  colspan="3" style="text-align: center;">Otto</td>
+                        <td  colspan="3" id=karna style="text-align: center;"></td>
                       </tr>
                       <tr>
                       
                         <td>Yoga:</td>
-                        <td  colspan="3" style="text-align: center;">Otto</td>
+                        <td  colspan="3" id=yoga style="text-align: center;"></td>
                       </tr>
                       <tr>
                       
                         <td>Raasi:</td>
-                        <td  colspan="3" style="text-align: center;">Otto</td>
+                        <td  colspan="3" id=raasi style="text-align: center;"></td>
                       </tr>
                       <tr>
                       
                         <td>Ayanamsa:</td>
-                        <td  colspan="3" style="text-align: center;">Otto</td>
+                        <td  colspan="3" id=ayanamsa style="text-align: center;"></td>
                       </tr>
                     </tbody>
                   </table>
