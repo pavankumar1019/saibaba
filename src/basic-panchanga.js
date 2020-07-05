@@ -39,7 +39,8 @@ if (daylist[day]="Saturday")
 }
 if (daylist[day]="Sunday")
 {
- 
     var gulikhal = "3:00-4:30";
     var yamaganda ="12:00-1:30";
 }
+document.getElementById("Gulikhala").innerHTML = gulikhal;
+document.getElementById("Yamagandakhala").innerHTML = yamaganda;
