@@ -40,7 +40,6 @@ if (daylist[day]="Friday")
 }
 if (daylist[day]="Saturday")
 {
- 
     var gulikhal = "6:00-7:30";
     var yamaganda ="1:30-3:00";
 }
