@@ -35,5 +35,3 @@ switch (new Date().getDay()) {
       var gulikhal = "6:00-7:30";
     var yamaganda ="1:30-3:00";
   }
-document.getElementById("Gulikhala").innerHTML = gulikhal;
-document.getElementById("Yamagandakhala").innerHTML = yamaganda;
