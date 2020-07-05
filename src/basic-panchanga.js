@@ -2,12 +2,6 @@ var today = new Date();
 var day = today.getDay();
 var daylist = ["Sunday","Monday","Tuesday","Wednesday ","Thursday","Friday","Saturday"];
 console.log("Today is : " + daylist[day] + ".");
-if (daylist[day]="Sunday")
-{
- 
-    var gulikhal = "3:00-4:30";
-    var yamaganda ="12:00-1:30";
-}
 if (daylist[day]="Monday")
 {
 
@@ -42,4 +36,10 @@ if (daylist[day]="Saturday")
 {
     var gulikhal = "6:00-7:30";
     var yamaganda ="1:30-3:00";
+}
+if (daylist[day]="Sunday")
+{
+ 
+    var gulikhal = "3:00-4:30";
+    var yamaganda ="12:00-1:30";
 }
