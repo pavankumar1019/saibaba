@@ -7,11 +7,12 @@
 //     mail($email,$subject,$message,$headers);
 
 $email=filter_input(INPUT_POST,"email");
+$name=filter_input(INPUT_POST,"name");
 $message=filter_input(INPUT_POST,"mssg");
 
 $to = "pavan5639kumar@gmail.com";
 $subject = "D.M Shirdi sai baba temple Trust";
-$txt = $message;
+$txt = $message."By".$name;
 $headers = "From: ".$email."\r\n";
 
 mail($to,$subject,$txt,$headers);
