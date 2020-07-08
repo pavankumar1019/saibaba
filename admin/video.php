@@ -388,14 +388,14 @@ if ($result->num_rows > 0) {
     ?>
     
     <tr>
-<?php echo $row["first_name"];?>
+<?php echo $row["first_name"];
+ $embd=$row["last_name"];
+echo '<form method="post" action="delete_video.php">';
+echo '<input type="hidden"  name="delete_file" value="'.$embd.'" class=""/><br>';
+echo '<input type="submit" class="float-right btn btn-primary" name="update" value="Delete image" />';
+echo '</form>';
+?>
     </tr>
-    <tr>
-    <form method="post" action="deleteimage.php">
-
-    <input type="submit" class="float-right btn btn-primary" value="Delete Video" />
-    </form>
-   </tr>
     <?php
   }
 } else {
