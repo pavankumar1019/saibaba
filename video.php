@@ -261,7 +261,7 @@ $conn->close();
           <!-- Modal Body -->
           <div class="modal-body">
             <div class="col-md-6 col-md-offset-3">
-              <form id="contact" action="" method="post">
+              <form id="contact" action="mail-php/mail.php" method="post">
                   <div class="row">
                       <div class="col-md-12">
                         <fieldset>
@@ -320,25 +320,9 @@ $conn->close();
                     </li>
                 </ul>
                 <a href="#" class="fa fa-facebook"></a>
-  <a href="#" class="fa fa-twitter"></a>
-  <a href="#" class="fa fa-google"></a>
-  <a href="#" class="fa fa-linkedin"></a>
   <a href="#" class="fa fa-youtube"></a>
   <a href="#" class="fa fa-instagram"></a>
-  <a href="#" class="fa fa-pinterest"></a>
-  <a href="#" class="fa fa-snapchat-ghost"></a>
-  <a href="#" class="fa fa-skype"></a>
-  <a href="#" class="fa fa-android"></a>
-  <a href="#" class="fa fa-dribbble"></a>
-  <a href="#" class="fa fa-vimeo"></a>
-  <a href="#" class="fa fa-tumblr"></a>
-  <a href="#" class="fa fa-vine"></a>
-  <a href="#" class="fa fa-foursquare"></a>
-  <a href="#" class="fa fa-stumbleupon"></a>
-  <a href="#" class="fa fa-flickr"></a>
-  <a href="#" class="fa fa-yahoo"></a>
-  <a href="#" class="fa fa-reddit"></a>
-  <a href="#" class="fa fa-rss"></a>
+ 
                 <p>Love one another and help others to rise to the higher levels, simply by pouring out love. Love is infectious and the greatest healing energy.</p>
             </div>
           </div>

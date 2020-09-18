@@ -190,7 +190,7 @@ https://templatemo.com/tm-520-highway
 
 
             <?php
-$imagesDirectory = "admin/insert-admin/images/";
+$imagesDirectory = "admin-uploads-to-website/insert-admin/images/";
 
 if (is_dir($imagesDirectory))
 {
@@ -213,14 +213,14 @@ if (is_dir($imagesDirectory))
  <div class="col-md-4 col-sm-6">
                     <div class="portfolio-item">
                         <div class="thumb">
-                            <a href="admin/insert-admin/images/<?php echo $image?>" data-lightbox="image-1"><div class="hover-effect">
+                            <a href="admin-uploads-to-website/insert-admin/images/<?php echo $image?>" data-lightbox="image-1"><div class="hover-effect">
                                 <div class="hover-content">
                                     <h1>Click Here</h1>
                                     <p></p>
                                 </div>
                             </div></a>
                             <div class="image">
-                             <?php echo "<img src='admin/insert-admin/images/".$image."'> ";?>
+                             <?php echo "<img src='admin-uploads-to-website/insert-admin/images/".$image."'> ";?>
                             </div>
                         </div>
                     </div>
@@ -240,14 +240,14 @@ if (is_dir($imagesDirectory))
 }
 ?>
 
-
+<!-- 
            <div class="row">
                 <div class="col-md-12">
                     <div class="load-more-button">
                         <a href="#">Load More</a>
                     </div>
                 </div>
-            </div>
+            </div> -->
             
         </div>
     </div>
@@ -279,7 +279,7 @@ if (is_dir($imagesDirectory))
           <!-- Modal Body -->
           <div class="modal-body">
             <div class="col-md-6 col-md-offset-3">
-              <form id="contact" action="" method="post">
+              <form id="contact" action="mail-php/mail.php" method="post">
                   <div class="row">
                       <div class="col-md-12">
                         <fieldset>
@@ -338,25 +338,8 @@ if (is_dir($imagesDirectory))
                     </li>
                 </ul>
                 <a href="#" class="fa fa-facebook"></a>
-  <a href="#" class="fa fa-twitter"></a>
-  <a href="#" class="fa fa-google"></a>
-  <a href="#" class="fa fa-linkedin"></a>
-  <a href="#" class="fa fa-youtube"></a>
-  <a href="#" class="fa fa-instagram"></a>
-  <a href="#" class="fa fa-pinterest"></a>
-  <a href="#" class="fa fa-snapchat-ghost"></a>
-  <a href="#" class="fa fa-skype"></a>
-  <a href="#" class="fa fa-android"></a>
-  <a href="#" class="fa fa-dribbble"></a>
-  <a href="#" class="fa fa-vimeo"></a>
-  <a href="#" class="fa fa-tumblr"></a>
-  <a href="#" class="fa fa-vine"></a>
-  <a href="#" class="fa fa-foursquare"></a>
-  <a href="#" class="fa fa-stumbleupon"></a>
-  <a href="#" class="fa fa-flickr"></a>
-  <a href="#" class="fa fa-yahoo"></a>
-  <a href="#" class="fa fa-reddit"></a>
-  <a href="#" class="fa fa-rss"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a>
                 <p>Love one another and help others to rise to the higher levels, simply by pouring out love. Love is infectious and the greatest healing energy.</p>
             </div>
           </div>
