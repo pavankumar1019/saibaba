@@ -1,4 +1,14 @@
 <?php
+
+$servername = "localhost";
+$username = "root";
+$password = "Pavan1019";
+$dbname = "sai";
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+?>
+<!-- Scuccess Page -->
+<?php
 $postdata = $_POST;
 $msg = '';
 if (isset($postdata ['key'])) {
@@ -24,13 +34,34 @@ if (isset($postdata ['key'])) {
 	
 	
 	if ($status == 'success'  && $txnid!="") {
-		$msg = "Transaction Successful &#128578 ";
-		//Do success order processing here...
-	}
-	else {
-		//tampered or failed
-		$msg = "Payment failed for Hasn not verified...";
-	} 
+    $msg = "Transaction Successful &#128578 ";
+    //Do success order processing here...
+    $txnid_p=$txnid;
+    $firstname_p = $firstname;
+    $email_p=$email;
+    $udf4_p=$udf4;
+    $mobile_p=$mobile;
+    $productInfo_p=$productInfo;
+    $udf5_p=$udf5;
+    $status_p=$status;
+    $msg_p=$msg;
+    $amount_p=$amount;
+
+
+
+
+    $sql = "INSERT INTO abhishekam_payment_dt ( transaction_ID, full_name, email_ID, address_p, number_p, event_p, booking_date, t_status, message_p,amount_p)
+    VALUES ('$txnid_p', '$firstname_p', '$email_p', '$udf4_p','$mobile_p','$productInfo_p','$udf5_p','$status_p','$msg_p','$amount_p')";
+  if ($conn->query($sql) === TRUE) {
+    $mssg="Thank You!!";
+  } else {
+    echo "Error: " . $sql . "<br>" . $conn->error;
+   header("Location: index.php");
+  }
+  $conn->close();
+
+}
+
 }
 else exit(0);
 ?>
@@ -196,9 +227,8 @@ else exit(0);
       
     </tr>
     <th scope="col">Message</th>
-      <td><?php echo $msg; ?> </td>
-     
-    </tr>
+      <td><?php echo $msg; ?><?php echo $mssg; ?> </td>
+      </tr>
 
     <tfoot>
         <tr>

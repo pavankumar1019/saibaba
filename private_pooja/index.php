@@ -1,3 +1,4 @@
+<?php include("db/fetch_gateway.php");?>
 <?php
 if(strcasecmp($_SERVER['REQUEST_METHOD'], 'POST') == 0){
 	//Request hash
@@ -38,7 +39,9 @@ function getCallbackUrl()
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
                             <!-- BOLT Sandbox/test //-->
-<script id="bolt" src="https://sboxcheckout-static.citruspay.com/bolt/run/bolt.min.js"></script>
+<!-- <script id="bolt" src="https://sboxcheckout-static.citruspay.com/bolt/run/bolt.min.js"></script> -->
+
+<script id="bolt" src="<?php echo $merchent_mode; ?>"></script>
 
                             <!-- BOLT Production/Live //-->
 <!--// script id="bolt" src="https://checkout-static.citruspay.com/bolt/run/bolt.min.js" ></script //-->
@@ -72,20 +75,20 @@ function getCallbackUrl()
     <div class="page-wrapper bg-blue p-t-100 p-b-100 font-robo">
         <div class="wrapper wrapper--w680">
             <div class="card card-1">
-                <div class="card-heading"></div>
+                <div class="card-heading" style=" background: url('download.jpg') center center/cover no-repeat;"></div>
                 <div class="card-body">
                     <h2 class="title">DM Shri Shirdi Sai Baba Temple Trust</h2>
-                     <h2  class="title">Abhishekam & Archana</h2>
+                     <h2  class="title">Private Pooja</h2>
                     <form  id="payment_form" action="#">
                         <div class="input-group">
 
                         <!-- Hiddent Input Fields in the  payment gate way -->
                                   
                                     <input class="input--style-1" type="hidden" id="surl" name="surl" value="<?php echo getCallbackUrl(); ?>" />
-                                    <input class="input--style-1" type="hidden" id="key" name="key" placeholder="Merchant Key" value="BUYdSiIP" />
-                                    <input class="input--style-1" type="hidden" id="salt" name="salt" placeholder="Merchant Salt" value="2sssAjscMy" />
+                                    <input class="input--style-1" type="hidden" id="key" name="key" placeholder="Merchant Key" value="<?php echo $merchent_key; ?> "/>
+                                    <input class="input--style-1" type="hidden" id="salt" name="salt" placeholder="Merchant Salt" value="<?php echo $merchent_salt; ?>" />
                                     <input class="input--style-1" type="hidden" id="txnid" name="txnid" placeholder="Transaction ID" value="<?php echo  "Txn" . rand(10000,99999999)?>" />
-                                    <input type="hidden" id="pinfo" name="pinfo" placeholder="Product Info" value="Abhishekam & Archana" />
+                                    <input type="hidden" id="pinfo" name="pinfo" placeholder="Product Info" value="Private Pooja" />
                                      <input type="hidden" id="amount" name="amount" placeholder="Amount" /> 
                                     <input class="input--style-1" type="hidden" id="hash" name="hash" placeholder="Hash" value="" />
 
@@ -122,9 +125,9 @@ function getCallbackUrl()
                             
                             <select class="form-control"  id="amount2"   onChange="check();" name="amount2"  required> 
                                             <option selected value="0.00">0.00</option>
-                                            <option value="250.0">250.0</option>
                                             <option value="500.0">500.0</option>
-                                            <option value="700.0">700.0</option>
+                                            <option value="1000.0">1000.0</option>
+                                            <option value="1500.0">1500.0</option>
                                             </select>
                             
                         </div>

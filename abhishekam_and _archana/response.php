@@ -45,15 +45,17 @@ if (isset($postdata ['key'])) {
     $udf5_p=$udf5;
     $status_p=$status;
     $msg_p=$msg;
+    $amount_p=$amount;
 
-    $sql = "INSERT INTO abhishekam_payment_dt ( transaction_ID, full_name, email_ID, address_p, number_p, event_p, booking_date, t_status, message_p)
-    VALUES ('$txnid_p', '$firstname_p', '$email_p', '$udf4_p','$mobile_p','$productInfo_p','$udf5_p','$status_p','$msg_p')";
+    $sql = "INSERT INTO abhishekam_payment_dt ( transaction_ID, full_name, email_ID, address_p, number_p, event_p, booking_date, t_status, message_p,amount_p)
+    VALUES ('$txnid_p', '$firstname_p', '$email_p', '$udf4_p','$mobile_p','$productInfo_p','$udf5_p','$status_p','$msg_p','$amount_p')";
   if ($conn->query($sql) === TRUE) {
     $mssg="Thank You!!";
   } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
+  header("Location: index.php");
   }
-
+  $conn->close();
 
 }
 
