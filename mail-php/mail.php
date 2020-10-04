@@ -8,7 +8,7 @@
 
 $email=filter_input(INPUT_POST,"email");
 $name=filter_input(INPUT_POST,"name");
-$message=filter_input(INPUT_POST,"mssg");
+$message=$_POST["mssg"];
 
 $to = "pavan5639kumar@gmail.com";
 $subject = "D.M Shirdi sai baba temple Trust";
