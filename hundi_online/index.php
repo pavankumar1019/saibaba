@@ -172,7 +172,7 @@ function isNumber(evt) {
 
             <!-- Jquery for the payment function and the hash generator  -->
 <script type="text/javascript">
-$('#payment_form').keypress(function(){
+$('#payment_form').bind('keyup blur', function(){
 	$.ajax({
           url: 'index.php',
           type: 'post',
