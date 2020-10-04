@@ -8,11 +8,11 @@
 
 $email=filter_input(INPUT_POST,"email");
 $name=filter_input(INPUT_POST,"name");
-$message=$_POST["mssg"];
+
 
 $to = "pavan5639kumar@gmail.com";
 $subject = "D.M Shirdi sai baba temple Trust";
-$txt =$message;
+$txt = $_POST["mssg"];
 $headers = "From: ".$email."\r\n";
 
 mail($to,$subject,$txt,$headers);
