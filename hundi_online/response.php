@@ -243,10 +243,12 @@ else exit(0);
             <li>Note:- Take Print of the Recipt and Carry with you while visiting temple.</li>
             <li>Note:- Recipt is not valid after the booking date</li>
             <button type="button" onclick="window.print()" class="btn btn-primary btn-lg">Print</button>
+            <button type="button" onclick="location.href = '../index.html';" class="btn btn-primary btn-lg">Back to Home</button>
             </ul>
             </th>
             
         </tr>
+        
     </tfoot>
   </tbody>
 </table>
