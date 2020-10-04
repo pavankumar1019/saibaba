@@ -19,7 +19,7 @@ mail($to,$subject,$txt,$headers);
 ?>
 <script>
     alert("Thank You!!!!!");
-    location.replace("index.html");
+    location.replace("../index.html");
 </script>
 <?php
 
