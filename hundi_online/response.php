@@ -55,7 +55,7 @@ if (isset($postdata ['key'])) {
       } 
       else {
     echo "Error: " . $sql . "<br>" . $conn->error;
-    header("Location: index.php");
+    location.replace("../donate.html");
   }
   $conn->close();
 
