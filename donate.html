@@ -20,6 +20,10 @@
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
   </script>
 
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
 </head>
 <body class="bg-primary">
   <div class="container-fluid mx-auto mt-5">
@@ -32,7 +36,7 @@
       <div class="card-body">
         <h5 class="card-title"><img class="img-fluid" src="img/baba3.png" alt=""></h5>
         <p class="card-text">Online Pooja Booking ,Abhishekam,Archana,Hundi & Donate to Temple</p>
-        <a href="#section" class="btn btn-warning">Go Here<br>
+        <a href="#" class="btn btn-warning" id="button">Go Here<br>
         	&#8595</a>
       </div>
       <div class="card-footer text-muted">
@@ -118,7 +122,14 @@
   
 </div>
 
-  
+  <script>
+
+$("#button").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#section").offset().top
+    }, 2000);
+});
+  </script>
 
 </body>
 </html>
