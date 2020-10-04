@@ -1,9 +1,9 @@
 <?php
 
 $servername = "localhost";
-$username = "root";
-$password = "Pavan1019";
-$dbname = "sai";
+$username = "u430139865_ydyp";
+$password = "pavan5639";
+$dbname = "u430139865_ydyp";
 $conn = new mysqli($servername, $username, $password, $dbname);
 
 ?>
@@ -51,6 +51,7 @@ if (isset($postdata ['key'])) {
     VALUES ('$txnid_p', '$firstname_p', '$email_p', '$udf4_p','$mobile_p','$productInfo_p','$udf5_p','$status_p','$msg_p','$amount_p')";
   if ($conn->query($sql) === TRUE) {
     $mssg="Thank You!!";
+    
     $me="pavan5639kumar@gmail.com";
     $to = $email_p;
     $subject = "D.M Shirdi sai baba temple Trust";
@@ -59,7 +60,8 @@ if (isset($postdata ['key'])) {
     
     mail($to,$subject,$txt,$headers);
 
-  } else {
+      } 
+      else {
     location.replace("../donate.html");
   }
   $conn->close();
@@ -242,6 +244,7 @@ else exit(0);
             <li>Note:- Recipt is not valid after the booking date</li>
             <button type="button" onclick="window.print()" class="btn btn-primary btn-lg">Print</button>
             <button type="button" onclick="location.href = '../index.html';" class="btn btn-danger btn-lg">Back to Home</button>
+
             </ul>
             </th>
             
