@@ -53,16 +53,16 @@ if (isset($postdata ['key'])) {
   if ($conn->query($sql) === TRUE) {
     $mssg="Thank You!!";
     
+    $me="pavan5639kumar@gmail.com";
     $to = $email_p;
     $subject = "D.M Shirdi sai baba temple Trust";
     $txt = "your payment is Successfull for ".$productInfo_p." your transaction id is :".$txnid_p;
-    $headers = "dmshrishirdisai@gmail.com";
+    $headers = "From: ".$me."\r\n";
     
     mail($to,$subject,$txt,$headers);
 
       } 
       else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
     location.replace("../donate.html");
   }
   $conn->close();
