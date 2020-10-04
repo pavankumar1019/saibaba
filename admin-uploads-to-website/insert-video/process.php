@@ -2,7 +2,7 @@
 
 //process.php
 
-$connect = new PDO("mysql:host=localhost; dbname=sai", "root", "Pavan1019");
+include('../conn/connection.php');
 
 if(isset($_POST["first_name"]))
 {
@@ -17,7 +17,7 @@ if(isset($_POST["first_name"]))
  VALUES (:first_name, :last_name)
  ";
 
- $statement = $connect->prepare($query);
+ $statement = $conn->prepare($query);
 
  $statement->execute($data);
 
