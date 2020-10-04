@@ -1,8 +1,7 @@
 <?php
 
 //process.php
-
-include('../conn/connection.php');
+include '../conn/connection.php';
 
 if(isset($_POST["first_name"]))
 {

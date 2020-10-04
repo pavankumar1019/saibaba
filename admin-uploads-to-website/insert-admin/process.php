@@ -1,8 +1,8 @@
 <?php
 
 //process.php
+include '../conn/connection.php';
 
-$connect = new PDO("mysql:host=localhost; dbname=sai", "root", "Pavan1019");
 try {
 if(isset($_POST["first_name"]))
 {
@@ -21,7 +21,7 @@ if(isset($_POST["first_name"]))
  VALUES ('$text','$image')
  ";
 
- $statement = $connect->prepare($query);
+ $statement = $conn->prepare($query);
 
  $statement->execute($data);
 
