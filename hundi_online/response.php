@@ -53,10 +53,10 @@ if (isset($postdata ['key'])) {
   if ($conn->query($sql) === TRUE) {
     $mssg="Thank You!!";
     
-    $to = $email;
+    $to = $email_p;
     $subject = "D.M Shirdi sai baba temple Trust";
-    $txt = "your payment is Successfull for ".$productInfo." your transaction id is :".$txnid;
-    $headers = "From: D.M Shirdi sai baba temple trust";
+    $txt = "your payment is Successfull for ".$productInfo_p." your transaction id is :".$txnid_p;
+    $headers = "dmshrishirdisai@gmail.com";
     
     mail($to,$subject,$txt,$headers);
 
