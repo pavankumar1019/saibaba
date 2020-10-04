@@ -51,9 +51,16 @@ if (isset($postdata ['key'])) {
     VALUES ('$txnid_p', '$firstname_p', '$email_p', '$udf4_p','$mobile_p','$productInfo_p','$udf5_p','$status_p','$msg_p','$amount_p')";
   if ($conn->query($sql) === TRUE) {
     $mssg="Thank You!!";
+    $me="pavan5639kumar@gmail.com";
+    $to = $email_p;
+    $subject = "D.M Shirdi sai baba temple Trust";
+    $txt = "your payment is Successfull for ".$productInfo_p." your transaction id is :".$txnid_p;
+    $headers = "From: ".$me."\r\n";
+    
+    mail($to,$subject,$txt,$headers);
+
   } else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
-  header("Location: index.php");
+    location.replace("../donate.html");
   }
   $conn->close();
 
@@ -234,6 +241,7 @@ else exit(0);
             <li>Note:- Take Print of the Recipt and Carry with you while visiting temple.</li>
             <li>Note:- Recipt is not valid after the booking date</li>
             <button type="button" onclick="window.print()" class="btn btn-primary btn-lg">Print</button>
+            <button type="button" onclick="location.href = '../index.html';" class="btn btn-danger btn-lg">Back to Home</button>
             </ul>
             </th>
             
