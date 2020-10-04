@@ -1,8 +1,8 @@
 <?php 
 $host = "localhost";
-$user = "root";
-$db_password = "Pavan1019";
-$db_name = "login_with_prepared_statement";
+$user = "u430139865_ydyp";
+$db_password = "pavan5639";
+$db_name = "u430139865_ydyp";
 
 $conn= mysqli_connect($host,$user,$db_password,$db_name);
 if($conn){
