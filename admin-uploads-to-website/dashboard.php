@@ -40,28 +40,7 @@ include('includes/navbar.php');
   </div>
 </div>
 
-<!-- 
-<div class="row mb-3">
-  <div class="col-sm-6">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">DM Shri Shirdi Sai Baba Temple Trust</h5>
-        <p class="card-text">Upload the Photos to the Website image gallery.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-6">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">DM Shri Shirdi Sai Baba Temple Trust</h5>
-        <p class="card-text">Upload the Photos to the Website image gallery.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-  </div>
-</div> -->
-  <!-- Content Row -->
+
 
   <?php
 include('includes/scripts.php');

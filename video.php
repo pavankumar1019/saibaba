@@ -196,9 +196,9 @@ https://templatemo.com/tm-520-highway
 <!-- my sql fetch videos by pavan kumar -->
 <?php
 $servername = "localhost";
-$username = "root";
-$password = "Pavan1019";
-$dbname = "sai";
+$username = "u430139865_ydyp";
+$password = "pavan5639";
+$dbname = "u430139865_ydyp";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
