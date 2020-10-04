@@ -52,6 +52,21 @@ if (isset($postdata ['key'])) {
     VALUES ('$txnid_p', '$firstname_p', '$email_p', '$udf4_p','$mobile_p','$productInfo_p','$udf5_p','$status_p','$msg_p','$amount_p')";
   if ($conn->query($sql) === TRUE) {
     $mssg="Thank You!!";
+    
+    $to = $email;
+    $subject = "D.M Shirdi sai baba temple Trust";
+    $txt = "your payment is Successfull for ".$productInfo." your transaction id is :".$txnid;
+    $headers = "From: D.M Shirdi sai baba temple trust";
+    
+    mail($to,$subject,$txt,$headers);
+
+
+
+
+
+
+
+
       } 
       else {
     echo "Error: " . $sql . "<br>" . $conn->error;
@@ -163,7 +178,6 @@ else exit(0);
 </div> -->
 <div class="d-flex justify-content-center">
 <div class="w-75  table-responsive-sm ">
-
 <table class="table">
   <thead>
     <tr >
