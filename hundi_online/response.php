@@ -60,13 +60,6 @@ if (isset($postdata ['key'])) {
     
     mail($to,$subject,$txt,$headers);
 
-
-
-
-
-
-
-
       } 
       else {
     echo "Error: " . $sql . "<br>" . $conn->error;
