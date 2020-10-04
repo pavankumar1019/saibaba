@@ -368,13 +368,7 @@
         <tbody>
      
         <?php
-$servername = "localhost";
-$username = "root";
-$password = "Pavan1019";
-$dbname = "sai";
-
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
+include('conn/connection.php')
 // Check connection
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
