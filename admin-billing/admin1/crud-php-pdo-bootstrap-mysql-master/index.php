@@ -16,7 +16,7 @@
       </a>
       <div class="input-group">
     <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-      <input id="myInput"  class="form-control " type="text" placeholder="Search..">
+      <input id="myInput"  class="form-control " style="margin-top: 10px" type="text" placeholder="Search..">
       </div>
 </div>
 <br />
