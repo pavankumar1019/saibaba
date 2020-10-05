@@ -216,9 +216,8 @@ if ($result->num_rows > 0) {
                 	<td><?php print($row['full_name']); ?></td> <!--utilisation de print pour l'affichage de id pour ce ligne-->
                 	<td><?php print($row['email_ID']); ?></td><!--affichage de nome-->
                 	<td><?php print($row['address_p']); ?></td><!--affichage de prénom-->
-                	<td><?php print($row['email_id']); ?></td><!--affichage de email-->
-                	<td><?php print($row['number_p']); ?></td><!--affichage de tél-->
-					<td><?php print($row['event_p']); ?></td><!--affichage de tél-->
+                	<td><?php print($row['number_p']); ?></td><!--affichage de email-->
+                <td><?php print($row['event_p']); ?></td><!--affichage de tél-->
 					<td><?php print($row['booking_date']); ?></td><!--affichage de tél-->
 					<td><?php print($row['amount_p']); ?></td><!--affichage de tél-->
 					<td><?php print($row['transaction_ID']); ?></td><!--affichage de tél-->
