@@ -99,7 +99,7 @@ if(isset($_POST['btn-del']))
      
     </tr>
 
-    <th scope="col"> Event and Date of Booking</th>
+    <th scope="col"> Date of Booking Event</th>
       <td><?php print($row['event_date']); ?></td>
    
     </tr>
