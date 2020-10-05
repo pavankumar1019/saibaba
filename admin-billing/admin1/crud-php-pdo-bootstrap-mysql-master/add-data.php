@@ -38,6 +38,13 @@ if(isset($_GET['inserted'])){ // alors si on a on paramétre "inserted", on mets
 	   <div class="alert alert-info">
         success!! <!-- le message a afficher avec un style de bootstrap de success--> 
 	   </div>
+       <script>
+   var divToPrint=document.getElementById("myTable1");
+   newWin= window.open("");
+   newWin.document.write(divToPrint.outerHTML);
+   newWin.print();
+   newWin.close();
+        </script>
 	</div>
     <?php
 }else if(isset($_GET['failure'])){ // et sinon (on a on paramétre "failure"), on mets u messaga:
@@ -45,15 +52,7 @@ if(isset($_GET['inserted'])){ // alors si on a on paramétre "inserted", on mets
     <div class="container">
 	   <div class="alert alert-warning">
         Error in insertion <!--le message-->
-        <script>
-   var divToPrint=document.getElementById("myTable1");
-   newWin= window.open("");
-   newWin.document.write(divToPrint.outerHTML);
-   newWin.print();
-   newWin.close();
-        </script>
-
-	   </div>
+    </div>
 	</div>
     <?php
     }
