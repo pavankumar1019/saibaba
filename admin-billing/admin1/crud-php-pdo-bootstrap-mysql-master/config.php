@@ -28,11 +28,11 @@ Released: 2012-03-18
 ###########################################################
 
 /* Define MySQL connection details and database table name */
-$SETTINGS["mysql_user"]='user';
-$SETTINGS["mysql_pass"]='pass';
+$SETTINGS["mysql_user"]='u430139865_ydyp';
+$SETTINGS["mysql_pass"]='pavan5639';
 $SETTINGS["hostname"]='localhost';
-$SETTINGS["mysql_database"]='demo';
-$SETTINGS["data_table"]='mysql_table_search';
+$SETTINGS["mysql_database"]='u430139865_ydyp';
+$SETTINGS["data_table"]='tbl_Devotees_Data';
 
 /* Connect to MySQL */
 
@@ -42,4 +42,4 @@ if (mysqli_connect_errno()) {
     printf("Connect failed: %s\n", mysqli_connect_error());
     exit();
 }
-?>
+?> 

@@ -1,46 +1,4 @@
 <?php
-$first_names = array(
-"Liam",
-"Emma",
-"Noah",
-"Olivia",
-"William",
-"Ava",
-"James",
-"Isabella",
-"Oliver",
-"Sophia",
-"Benjamin",
-"Charlotte",
-"Elijah ",
-"Mia",
-"Lucas",
-"Amelia",
-"Mason",
-"Harper",
-"Logan");
-$second_names = array(
-"Smith",
-"Jones",
-"Taylor",
-"Brown",
-"Williams",
-"Wilson",
-"Johnson",
-"Davies",
-"Robinson",
-"Wright",
-"Thompson",
-"Evans",
-"Walker",
-"White",
-"Roberts",
-"Green",
-"Hall",
-"Wood",
-"Jackson",
-"Clarke",
-);
 $cities = array("London","Manchester","Liverpool","Leeds","Birmingham","Bristol","Newcastle","Nottingham","Portsmouth","Sheffield","Southampton");
 $count = 50;
 $sql = "INSERT INTO `mysql_table_search` (`from_date`, `to_date`, `full_name`, `email`, `city`) VALUES";

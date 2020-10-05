@@ -127,11 +127,11 @@ include("config.php");
                 <thead>
                 <tr>
 
-                    <th class="datepicker"><strong>From date</strong></td>
-                    <th class="datepicker"><strong>To date</strong></td>
-                    <th><strong>Name</strong></td>
+                    <th class="datepicker"><strong>Event date</strong></td>
+                    <th class="datepicker"><strong>Bill Date</strong></td>
+                    <th><strong>First Name</strong></td>
+                    <th><strong>Last name</strong></td>
                     <th><strong>Email</strong></td>
-                    <th><strong>City</strong></td>
                 </tr>
                 </thead>
                 <tbody>
@@ -143,11 +143,11 @@ include("config.php");
                     while ($row = $result->fetch_assoc()) {
                         ?>
                         <tr>
-                            <td><?php echo $row["from_date"]; ?></td>
-                            <td><?php echo $row["to_date"]; ?></td>
-                            <td><?php echo $row["full_name"]; ?></td>
-                            <td><?php echo $row["email"]; ?></td>
-                            <td><?php echo $row["city"]; ?></td>
+                        <td><?php print($row['id']); ?></td> <!--utilisation de print pour l'affichage de id pour ce ligne-->
+                	<td><?php print($row['first_name']); ?></td><!--affichage de nome-->
+                	<td><?php print($row['last_name']); ?></td><!--affichage de prénom-->
+                	<td><?php print($row['email_id']); ?></td><!--affichage de email-->
+            
                         </tr>
                     <?php }
                 } else {
@@ -157,7 +157,7 @@ include("config.php");
                     }
                     ?>
                 </tbody>
-                <tfoot>
+                <!-- <tfoot>
                 <tr>
                     <th><strong>From date</strong></td>
                     <th><strong>To date</strong></td>
@@ -165,7 +165,7 @@ include("config.php");
                     <th><strong>Email</strong></td>
                     <th><strong>City</strong></td>
                 </tr>
-                </tfoot>
+                </tfoot> -->
             </table>
 </body>
 </html>
