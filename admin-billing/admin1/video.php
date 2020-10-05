@@ -138,125 +138,14 @@
        
           <h1 class="h3 mb-4 text-gray-800">Add Data</h1>
               <h6 class="m-0 font-weight-bold text-primary">Online Bill</h6>
-<!--               
+              
   <iframe    frameborder="0" 
     marginheight="0" 
     marginwidth="0" 
     width="100%" 
-    height="100%"  src="insert-video/index.php" allowfullscreen></iframe> -->
+    height="100%"  src="online.php" allowfullscreen></iframe>
 </div>
-    <div class="container-fluid" id="table-scroll">
-    <div class="table-responsive">
-
-      <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-        <thead class="text-center">
-          <tr>
-            <th>Full Name</th>
-            <th>Email</th>
-            <th>Address</th>
-            <th>Contact</th>
-            <th>Event</th>
-            <th>Booking Date</th>
-            <th>Amount</th>
-            <th>Transaction ID</th>
-            <th>Transaction Status</th>
-            <th>Print</th>
-          </tr>
-        </thead>
-        <tbody>
-     
-        <?php
-$servername = "localhost";
-$username = "u430139865_ydyp";
-$password = "pavan5639";
-$dbname = "u430139865_ydyp";
-
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-// Check connection
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
-}
-
-$sql = "SELECT * FROM abhishekam_payment_dt";
-$result = $conn->query($sql);
-
-if ($result->num_rows > 0) {
-  // output data of each row
-  while($row = $result->fetch_assoc()) {
-    ?>
     
-    <tr>
-                	<td><?php print($row['full_name']); ?></td> <!--utilisation de print pour l'affichage de id pour ce ligne-->
-                	<td><?php print($row['email_ID']); ?></td><!--affichage de nome-->
-                	<td><?php print($row['address_p']); ?></td><!--affichage de prénom-->
-                	<td><?php print($row['number_p']); ?></td><!--affichage de email-->
-                <td><?php print($row['event_p']); ?></td><!--affichage de tél-->
-					<td><?php print($row['booking_date']); ?></td><!--affichage de tél-->
-					<td><?php print($row['amount_p']); ?></td><!--affichage de tél-->
-					<td><?php print($row['transaction_ID']); ?></td><!--affichage de tél-->
-					<td><?php print($row['t_status']); ?></td><!--affichage de tél-->
-
-			
-<!-- //edit and delete option 
-                	<td align="center">
-					
-                	<a href="edit-data.php?edit_id=<?php print($row['id']); ?>">
-					<i class="glyphicon glyphicon-edit"></i> 
-					</a>
-                	</td> -->
-                	<td align="center">
-					
-                	<a href="delete.php?delete_id=<?php print($row['id']); ?>">
-					<i class="glyphicon glyphicon-print"></i>
-					</a>
-                	</td> 
-                </tr>
-
-
-    <?php
-  }
-} else {
-  echo "0 results";
-}
-$conn->close();
-?>
-
-          
-        
-        </tbody>
-      </table>
-
-    </div>
-
-          
-
-            </div>
-
-          
-
-          </div>
-
-        </div>
-        <!-- /.container-fluid -->
-
-      </div>
-      <!-- End of Main Content -->
-
-      <!-- Footer -->
-      <footer class="sticky-footer bg-white">
-        <div class="container my-auto">
-          <div class="copyright text-center my-auto">
-            <span>PK|P developers</span>
-          </div>
-        </div>
-      </footer>
-      <!-- End of Footer -->
-
-    </div>
-    <!-- End of Content Wrapper -->
-
-  </div>
   <!-- End of Page Wrapper -->
 
   <!-- Scroll to Top Button-->
