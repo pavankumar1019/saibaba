@@ -177,17 +177,25 @@
       <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
         <thead class="text-center">
           <tr>
-            <th colspan="6">Your Videos</th>
-        
+            <th>Full Name</th>
+            <th>Email</th>
+            <th>Address</th>
+            <th>Contact</th>
+            <th>Event</th>
+            <th>Booking Date</th>
+            <th>Amount</th>
+            <th>Transaction ID</th>
+            <th>Transaction Status</th>
+            <th>Print</th>
           </tr>
         </thead>
         <tbody>
      
         <?php
 $servername = "localhost";
-$username = "root";
-$password = "Pavan1019";
-$dbname = "sai";
+$username = "u430139865_ydyp";
+$password = "pavan5639";
+$dbname = "u430139865_ydyp";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -196,7 +204,7 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT id, first_name, last_name FROM tbl_sample";
+$sql = "SELECT * FROM abhishekam_payment_dt";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
@@ -205,14 +213,34 @@ if ($result->num_rows > 0) {
     ?>
     
     <tr>
-<?php echo $row["first_name"];
- $embd=$row["last_name"];
-echo '<form method="post" action="delete_video.php">';
-echo '<input type="hidden"  name="delete_file" value="'.$embd.'" class=""/><br>';
-echo '<input type="submit" class="float-right btn btn-primary" name="update" value="Delete image" />';
-echo '</form>';
-?>
-    </tr>
+                	<td><?php print($row['full_name']); ?></td> <!--utilisation de print pour l'affichage de id pour ce ligne-->
+                	<td><?php print($row['email_ID']); ?></td><!--affichage de nome-->
+                	<td><?php print($row['address_p']); ?></td><!--affichage de prénom-->
+                	<td><?php print($row['email_id']); ?></td><!--affichage de email-->
+                	<td><?php print($row['number_p']); ?></td><!--affichage de tél-->
+					<td><?php print($row['event_p']); ?></td><!--affichage de tél-->
+					<td><?php print($row['booking_date']); ?></td><!--affichage de tél-->
+					<td><?php print($row['amount_p']); ?></td><!--affichage de tél-->
+					<td><?php print($row['transaction_ID']); ?></td><!--affichage de tél-->
+					<td><?php print($row['t_status']); ?></td><!--affichage de tél-->
+
+			
+<!-- //edit and delete option 
+                	<td align="center">
+					
+                	<a href="edit-data.php?edit_id=<?php print($row['id']); ?>">
+					<i class="glyphicon glyphicon-edit"></i> 
+					</a>
+                	</td> -->
+                	<td align="center">
+					
+                	<a href="delete.php?delete_id=<?php print($row['id']); ?>">
+					<i class="glyphicon glyphicon-print"></i>
+					</a>
+                	</td> 
+                </tr>
+
+
     <?php
   }
 } else {
