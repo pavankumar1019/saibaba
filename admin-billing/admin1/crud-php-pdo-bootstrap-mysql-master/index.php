@@ -10,12 +10,14 @@
 
 <div class="container">
     <!--lien vers la page d'ajoute d'utilisateur-->
-    <div class="row mx-auto">
+    
     <a href="add-data.php" class="btn btn-large btn-info">
         <i class="glyphicon glyphicon-plus"></i> &nbsp; Offline Data
       </a>
-      <input id="myInput"  class="form-control mt-25" type="text" placeholder="Search..">
-</div>
+      <div class="input-group">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+      <input id="myInput"  class="form-control " type="text" placeholder="Search..">
+      </div>
 </div>
 <br />
 <div class="container"> 
