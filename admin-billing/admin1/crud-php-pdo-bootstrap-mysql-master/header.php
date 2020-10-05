@@ -12,7 +12,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>CRUD using OOP PHP & Mysql & Bootstrap</title>
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
 	<div class="navbar navbar-default navbar-static-top" role="navigation">
