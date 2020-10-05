@@ -35,6 +35,44 @@ class crud // la class des operations avec la base de données.
 			$stmt->bindparam(":address",$address);
 			// execution de la reqeute :
 			return $stmt->execute();
+
+
+
+			?>
+
+<div class="container" id="DivIdToPrint">
+<table>
+<tr>
+<td>Name</td>
+<td><?php echo $fname;?></td>
+</tr>
+</table>
+</div>
+
+
+
+
+
+			<script>
+
+  var divToPrint=document.getElementById('DivIdToPrint');
+
+  var newWin=window.open('','Print-Window');
+
+  newWin.document.open();
+
+  newWin.document.write('<html><body onload="window.print()">'+divToPrint.innerHTML+'</body></html>');
+
+  newWin.document.close();
+
+  setTimeout(function(){newWin.close();},10);
+
+			</script>
+
+
+
+
+			<?php
 		}
 		catch(PDOException $e) // l'utilisation de "try catch" pour vérifier si on a des erreurs, 
 		{					   // et afficher des messages.
