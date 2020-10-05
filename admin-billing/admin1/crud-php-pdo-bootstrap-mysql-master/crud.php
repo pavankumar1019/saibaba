@@ -28,8 +28,8 @@ class ArticlesCrud{
 
 	public function add(){
 		$this->connection->prepare();
-		$sql = "INSERT INTO tbl_Devotees_Data (first_name,last_name,email_id,contact_no,event_t)
-		VALUES ('$fname', '$lname','$email','$contact','$event')";
+		$sql = "INSERT INTO tbl_Devotees_Data (first_name,last_name,email_id,contact_no,event_t,event_date)
+		VALUES ('$fname', '$lname','$email','$contact','$event','$event_date')";
 		$DB_con->exec($sql);  
 		
 	}
