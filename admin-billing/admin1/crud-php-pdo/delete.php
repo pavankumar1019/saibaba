@@ -63,11 +63,6 @@ if(isset($_POST['btn-del']))
            
         </tr>
 
-        <tr >
-    <td  style="text-align:right;" colspan="2">
-     <h6 id="date">Date:-</h6>
-    </td>
-     </tr>
 
   </thead>
   <tbody>
