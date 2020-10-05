@@ -26,12 +26,9 @@
             <th>Phone Number</th>
             <th>Event </th>
             <th>Event Date </th>
-
             <th>Amount </th>
-
             <th>State </th>
             <th>District </th>
-            <th>state </th>
             <th>Address </th>
             <!-- <th colspan="2" align="center">Actions</th> -->
         </tr>
