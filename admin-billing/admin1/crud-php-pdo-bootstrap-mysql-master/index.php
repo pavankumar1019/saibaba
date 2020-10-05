@@ -12,8 +12,8 @@
     <!--lien vers la page d'ajoute d'utilisateur-->
     <a href="add-data.php" class="btn btn-large btn-info">
         <i class="glyphicon glyphicon-plus"></i> &nbsp; Offline Data
-        <input id="myInput" type="text" placeholder="Search..">
-    </a>
+      </a>
+      <input id="myInput" type="text" placeholder="Search..">
 </div>
 <br />
 <div class="container"> 
