@@ -89,7 +89,7 @@ if(isset($_POST['btn-del']))
     
     </tr>
     <th scope="col">Address</th>
-      <td><?phpprint($row['address_p']); ?> </td>
+      <td><?php print($row['address_p']); ?> </td>
      
     </tr>
 
@@ -109,7 +109,7 @@ if(isset($_POST['btn-del']))
     </tr>
     
     <th scope="col">Transaction Status</th>
-      <td><?phpprint($row['t_status']); ?> </td>
+      <td><?php print($row['t_status']); ?> </td>
      <tfoot>
         <tr>
             <th colspan="2">
