@@ -24,7 +24,7 @@ if(isset($_POST['btn-del']))
 	{
 		?>
         <div class="alert alert-success">
-    	Delete Success! 
+    	Print Success! 
 		</div>
         <?php
 	}
@@ -32,7 +32,7 @@ if(isset($_POST['btn-del']))
 	{
 		?>
         <div class="alert alert-danger">
-    	Delete Here! 
+    	Print Here! 
 		</div>
         <?php
 	}
@@ -47,11 +47,17 @@ if(isset($_POST['btn-del']))
 		 ?>
          <table class='table table-bordered'>
          <tr>
-         <th>N°</th>
-         <th>First Name</th>
-         <th>Last Name</th>
-         <th>E - mail</th>
-         <th>Phone Number</th>
+         <td>First Name </td>
+            <td>Last Name</td>
+            <td>E - mail</td>
+            <td>Phone Number</td>
+            <td>Event </td>
+            <td>Event Date </td>
+            <td>Amount </td>
+            <td>State </td>
+            <td>District </td>
+            <td>Address </td>
+            <td>Print </td>         
          </tr>
          <?php
          $stmt = $DB_con->prepare("SELECT * FROM tbl_Devotees_Data WHERE id=:id");
