@@ -55,7 +55,7 @@ if(isset($_POST['btn-del']))
   <thead>
     <tr >
     <td  style="text-align: center;" colspan="2">
-    <img width="170em" src="images/81tJnr3gLaL._SX466_.jpg" /><br>
+    <img width="170em" src="81tJnr3gLaL._SX466_.jpg" /><br>
     <h3>DM Shri Shirdi Sai Baba Temple </h3>
     <h6>(Opp Old Food godown,KGF main Road,Bangarpet 563114,karnataka,India)</h6>
 
@@ -74,49 +74,43 @@ if(isset($_POST['btn-del']))
     <tr>
      
       <th scope="col">Transaction ID</th>
-      <td><?php echo $txnid; ?></td>
+      <td><?php print($row['transaction_ID']);?></td>
    
     </tr>
     <tr>
     
     <th scope="col">Full Name</th>
-      <td><?php echo $firstname; ?></td>
+      <td><?php print($row['full_name']); ?></td>
   
     </tr>
     <tr>
     <th scope="col">Email ID</th>
-      <td><?php echo $email; ?></td>
+      <td><?php print($row['email_ID']); ?></td>
     
     </tr>
     <th scope="col">Address</th>
-      <td><?php echo $udf4; ?> </td>
+      <td><?phpprint($row['address_p']); ?> </td>
      
     </tr>
 
     </tr>
     <th scope="col">Mobile number</th>
-      <td><?php echo $mobile; ?> </td>
+      <td><?php print($row['number_p']);  ?> </td>
      
     </tr>
 
     <th scope="col"> Event and Date of Booking</th>
-      <td><?php echo $productInfo; echo '&nbsp Date:-'.$udf5; ?></td>
+      <td><?php print($row['event_p']);  echo '&nbsp Date:-'; print($row['booking_date']); ?></td>
    
     </tr>
     <th scope="col">Amount</th>
-      <td><?php echo $amount; ?>Rs</td>
+      <td><?php print($row['amount_p']); ?>Rs</td>
   
     </tr>
     
     <th scope="col">Transaction Status</th>
-      <td><?php echo $status; ?> </td>
-      
-    </tr>
-    <th scope="col">Message</th>
-      <td><?php echo $msg; ?><?php echo $mssg; ?> </td>
-      </tr>
-
-    <tfoot>
+      <td><?phpprint($row['t_status']); ?> </td>
+     <tfoot>
         <tr>
             <th colspan="2">
             <ul>

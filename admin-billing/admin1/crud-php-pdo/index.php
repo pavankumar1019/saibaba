@@ -11,9 +11,9 @@
 <div class="container">
     <!--lien vers la page d'ajoute d'utilisateur-->
     
-    <a href="add-data.php" class="btn btn-large btn-info">
+    <!-- <a href="add-data.php" class="btn btn-large btn-info">
         <i class="glyphicon glyphicon-plus"></i> &nbsp; Offline Data
-      </a>
+      </a> -->
       <a href="add-data.php" id="print" class="btn btn-large btn-secondary">
         <i class="glyphicon glyphicon-plus"></i> &nbsp;  Print Report
       </a>
