@@ -21,12 +21,14 @@ class crud // la class des operations avec la base de données.
 			// préparation de la requete :
 			$stmt = $this->db->prepare(
 				"INSERT INTO tbl_Devotees_Data(first_name,last_name,email_id,contact_no,event_t) 
-						VALUES(:fname, :lname, :email, :contact, $event)");
+						VALUES(:fname, :lname, :email, :contact, :event)");
 			// affectations des valeurs :
 			$stmt->bindparam(":fname",$fname);
 			$stmt->bindparam(":lname",$lname);
 			$stmt->bindparam(":email",$email);
 			$stmt->bindparam(":contact",$contact);
+			$stmt->bindparam(":event",$event);
+
 			// execution de la reqeute :
 			return $stmt->execute();
 		}
