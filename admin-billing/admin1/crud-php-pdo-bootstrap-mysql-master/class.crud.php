@@ -103,18 +103,27 @@ class crud // la class des operations avec la base de données.
                 	<td><?php print($row['last_name']); ?></td><!--affichage de prénom-->
                 	<td><?php print($row['email_id']); ?></td><!--affichage de email-->
                 	<td><?php print($row['contact_no']); ?></td><!--affichage de tél-->
+					<td><?php print($row['event_t']); ?></td><!--affichage de tél-->
+					<td><?php print($row['event_date']); ?></td><!--affichage de tél-->
+					<td><?php print($row['amount']); ?></td><!--affichage de tél-->
+					<td><?php print($row['state']); ?></td><!--affichage de tél-->
+					<td><?php print($row['district']); ?></td><!--affichage de tél-->
+					<td><?php print($row['address']); ?></td><!--affichage de tél-->
+
+<!-- 					
+//edit and delete option 
                 	<td align="center">
-					<!--ici on va crée par l'id de la ligne courant, un lien vers la page de modification-->
+					
                 	<a href="edit-data.php?edit_id=<?php print($row['id']); ?>">
-					<i class="glyphicon glyphicon-edit"></i> <!--utilisation d'une icone de bootstrap-->
+					<i class="glyphicon glyphicon-edit"></i> 
 					</a>
                 	</td>
                 	<td align="center">
-					<!--ici on va crée par l'id de la ligne courant, un lien vers la page de suppression-->
+					
                 	<a href="delete.php?delete_id=<?php print($row['id']); ?>">
-					<i class="glyphicon glyphicon-remove-circle"></i><!--utilisation d'une icone de bootstrap-->
+					<i class="glyphicon glyphicon-remove-circle"></i>
 					</a>
-                	</td>
+                	</td> -->
                 </tr>
                 <?php
 			}
