@@ -106,9 +106,9 @@ class crud // la class des operations avec la base de données.
 					<td><?php print($row['event_t']); ?></td><!--affichage de tél-->
 					<td><?php print($row['event_date']); ?></td><!--affichage de tél-->
 					<td><?php print($row['amount']); ?></td><!--affichage de tél-->
-					<td><?php print($row['state']); ?></td><!--affichage de tél-->
+					<td><?php print($row['state_t']); ?></td><!--affichage de tél-->
 					<td><?php print($row['district']); ?></td><!--affichage de tél-->
-					<td><?php print($row['address']); ?></td><!--affichage de tél-->
+					<td><?php print($row['address_t']); ?></td><!--affichage de tél-->
 
 <!-- 					
 //edit and delete option 
