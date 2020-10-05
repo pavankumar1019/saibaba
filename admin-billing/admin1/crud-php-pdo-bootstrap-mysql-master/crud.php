@@ -21,9 +21,9 @@ class ArticlesCrud{
 	private $connection;
 
 	private $host = 'localhost';
-	private $db = 'cake';
-	private $user = 'root';
-	private $pass = '';
+	private $db = 'u430139865_ydyp';
+	private $user = 'u430139865_ydyp';
+	private $pass = 'pavan5639';
 
 	public function __construct(){
 		try
