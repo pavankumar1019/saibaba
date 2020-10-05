@@ -38,6 +38,7 @@
             <th>State </th>
             <th>District </th>
             <th>Address </th>
+            <th>Print </th>
             <!-- <th colspan="2" align="center">Actions</th> -->
         </tr>
         <?php    
