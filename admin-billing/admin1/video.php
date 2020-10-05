@@ -133,17 +133,17 @@
         </nav>
         <!-- End of Topbar -->
 
-        <div class="container-fluid"
+        <div class="container-fluid">
 <!--  -->
        
-          <h1 class="h3 mb-4 text-gray-800">Add Data</h1>
-              <h6 class="m-0 font-weight-bold text-primary">Online Bill</h6>
+          <h1 class="h3 mb-4 text-gray-800">Online Success Full Payment Report</h1>
+              <h6 class="m-0 font-weight-bold text-primary">Online</h6>
               
   <iframe    frameborder="0" 
     marginheight="0" 
     marginwidth="0" 
     width="100%" 
-    height="100%"  src="online.php" allowfullscreen></iframe>
+    height="100%"  src="insert-video/online.php" allowfullscreen></iframe>
 </div>
     
   <!-- End of Page Wrapper -->
