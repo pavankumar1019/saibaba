@@ -55,19 +55,19 @@ if(isset($_POST['btn-del']))
   <thead>
     <tr >
     <td  style="text-align: center;" colspan="2">
-    <img width="170em" src="images/81tJnr3gLaL._SX466_.jpg" /><br>
+    <img width="170em" src="81tJnr3gLaL._SX466_.jpg" /><br>
     <h3>DM Shri Shirdi Sai Baba Temple </h3>
     <h6>(Opp Old Food godown,KGF main Road,Bangarpet 563114,karnataka,India)</h6>
 
     </td>
            
         </tr>
-
+<!-- 
         <tr >
     <td  style="text-align:right;" colspan="2">
      <h6 id="date">Date:-</h6>
     </td>
-     </tr>
+     </tr> -->
 
   </thead>
   <tbody>
@@ -117,10 +117,10 @@ if(isset($_POST['btn-del']))
         <tr>
             <th colspan="2">
             <ul>
-            <li>Note:- Take Print of the Recipt and Carry with you while visiting temple.</li>
+            <li>Note:- Give the Recipt to the temple priest with valid sign of administrator</li>
             <li>Note:- Recipt is not valid after the booking date</li>
             <button type="button" onclick="window.print()" class="btn btn-primary btn-lg">Print</button>
-            <button type="button" onclick="location.href = '../index.html';" class="btn btn-danger btn-lg">Back to Home</button>
+            <button type="button" onclick="location.href = 'index.php';" class="btn btn-danger btn-lg">Back to Home</button>
 
             </ul>
             </th>
@@ -146,9 +146,9 @@ if(isset($_GET['delete_id']))
 {
 	?>
   	<form method="post">
-    <input type="hidden" name="id" value="<?php echo $row['id']; ?>" />
+    <!-- <input type="hidden" name="id" value="<?php echo $row['id']; ?>" /> -->
     <!-- <button class="btn btn-large btn-primary" type="submit" name="btn-del"><i class="glyphicon glyphicon-trash"></i> &nbsp; Yes</button> -->
-    <a href="index.php" class="btn btn-large btn-success"><i class="glyphicon glyphicon-backward"></i> &nbsp; No</a>
+    <!-- <a href="index.php" class="btn btn-large btn-success"><i class="glyphicon glyphicon-backward"></i> &nbsp; No</a> -->
     </form>  
 	<?php
 }
