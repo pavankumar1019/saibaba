@@ -5,9 +5,9 @@
 */
 
 $DB_host = "localhost";
-$DB_user = "root";
-$DB_pass = "Pavan1019";
-$DB_name = "dbpdo";
+$DB_user = "u430139865_ydyp";
+$DB_pass = "pavan5639";
+$DB_name = "u430139865_ydyp";
 
 try
 {

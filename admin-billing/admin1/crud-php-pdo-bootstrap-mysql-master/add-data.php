@@ -2,7 +2,7 @@
 /*
 
 */
-$connect = new PDO("mysql:host=localhost; dbname=dbpdo", "root", "Pavan1019");
+$connect = new PDO("mysql:host=localhost; dbname=u430139865_ydyp", "u430139865_ydyp", "pavan5639");
 include_once 'dbconfig.php'; 
  // include l'instance de la class crud.
 if(isset($_POST['btn-save'])){ // test sur le bouton. 
