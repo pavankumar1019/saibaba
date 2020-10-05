@@ -46,16 +46,11 @@ if(isset($_GET['inserted'])){ // alors si on a on paramétre "inserted", on mets
 	   <div class="alert alert-warning">
         Error in insertion <!--le message-->
         <script>
-        
-function printData()
-{
    var divToPrint=document.getElementById("myTable1");
    newWin= window.open("");
    newWin.document.write(divToPrint.outerHTML);
    newWin.print();
    newWin.close();
-}
-
         </script>
 
 	   </div>
