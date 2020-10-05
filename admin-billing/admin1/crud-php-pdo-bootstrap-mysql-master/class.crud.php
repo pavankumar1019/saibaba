@@ -121,7 +121,7 @@ class crud // la class des operations avec la base de données.
                 	<td align="center">
 					
                 	<a href="delete.php?delete_id=<?php print($row['id']); ?>">
-					<i class="fa fa-print">Print</i>
+					<i class="glyphicon glyphicon-print"></i>
 					</a>
                 	</td> 
                 </tr>
