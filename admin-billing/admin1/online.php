@@ -63,18 +63,10 @@ if ($result->num_rows > 0) {
 					<td><?php print($row['transaction_ID']); ?></td><!--affichage de tél-->
 					<td><?php print($row['t_status']); ?></td><!--affichage de tél-->
 
-			
-<!-- //edit and delete option 
-                	<td align="center">
-					
-                	<a href="edit-data.php?edit_id=<?php print($row['id']); ?>">
-					<i class="glyphicon glyphicon-edit"></i> 
-					</a>
-                	</td> -->
                 	<td align="center">
 					
                 	<a href="delete.php?delete_id=<?php print($row['id']); ?>">
-					<i class="glyphicon glyphicon-print"></i>
+					<i class="glyphicon glyphicon-print">Print Bill</i>
 					</a>
                 	</td> 
                 </tr>

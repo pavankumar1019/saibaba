@@ -143,7 +143,7 @@
     marginheight="0" 
     marginwidth="0" 
     width="100%" 
-    height="100%"  src="insert-video/online.php" allowfullscreen></iframe>
+    height="100%"  src="online.php" allowfullscreen></iframe>
 </div>
     
   <!-- End of Page Wrapper -->

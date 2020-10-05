@@ -109,9 +109,19 @@ class crud // la class des operations avec la base de données.
 					<td><?php print($row['state_t']); ?></td><!--affichage de tél-->
 					<td><?php print($row['district']); ?></td><!--affichage de tél-->
 					<td><?php print($row['address_t']); ?></td><!--affichage de tél-->
-                 	<td align="center">
-					<a href="delete.php?delete_id=<?php print($row['id']); ?>">
-					<i class="glyphicon glyphicon-print">Print</i>
+
+			
+<!-- //edit and delete option 
+                	<td align="center">
+					
+                	<a href="edit-data.php?edit_id=<?php print($row['id']); ?>">
+					<i class="glyphicon glyphicon-edit"></i> 
+					</a>
+                	</td> -->
+                	<td align="center">
+					
+                	<a href="delete.php?delete_id=<?php print($row['id']); ?>">
+					<i class="glyphicon glyphicon-print"></i>
 					</a>
                 	</td> 
                 </tr>
