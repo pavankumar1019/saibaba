@@ -28,7 +28,7 @@ class ArticlesCrud{
 
 	public function add(){
 		$this->connection->prepare();
-		$sql = "INSERT INTO tbl_Devotees_Data (first_name,last_name,email_id,contact_no,event,event_date,amount,state,district,address)
+		$sql = "INSERT INTO tbl_Devotees_Data (first_name,last_name,email_id,contact_no,event_t,event_date,amount,state_t,district,address_t)
 		VALUES ('$fname', '$lname','$email','$contact','$event','$event_date','$amount','$state','$district','$address')";
 		$DB_con->exec($sql);  
 		
