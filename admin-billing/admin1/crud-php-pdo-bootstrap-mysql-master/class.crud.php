@@ -14,7 +14,7 @@ class crud // la class des operations avec la base de données.
 		$this->db = $DB_con;
 	}
 	
-	public function create($fname,$lname,$email,$contact,$event) // methode d'insertion des données.
+	public function create($fname,$lname,$email,$contact,$event,$event_date,$amount,$amount,$state,$district,$address) // methode d'insertion des données.
 	{
 		try
 		{
