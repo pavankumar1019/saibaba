@@ -14,7 +14,7 @@
     <a href="add-data.php" class="btn btn-large btn-info">
         <i class="glyphicon glyphicon-plus"></i> &nbsp; Offline Data
       </a>
-      <input id="myInput"  class="form-control" type="text" placeholder="Search..">
+      <input id="myInput"  class="form-control mt-6" type="text" placeholder="Search..">
 </div>
 </div>
 <br />
