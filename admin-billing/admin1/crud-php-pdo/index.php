@@ -27,22 +27,21 @@
     <!--creation du tableau-->
 	<table class='table table-bordered table-responsive' id="myTable"> 
         <tr>
-            <th>N°</th>
-            <th>First Name </th>
-            <th>Last Name</th>
+            <th>Full name</th>
+            <th>email_ID </th>
+            <th>Address</th>
             <th>E - mail</th>
             <th>Phone Number</th>
             <th>Event </th>
-            <th>Event Date </th>
+            <th>booking_date </th>
             <th>Amount </th>
-            <th>State </th>
-            <th>District </th>
-            <th>Address </th>
+            <th>transaction_ID </th>
+            <th>t_status </th>
             <th>Print </th>
             <!-- <th colspan="2" align="center">Actions</th> -->
         </tr>
         <?php    
-		  $crud->dataview("SELECT * FROM tbl_Devotees_Data order by id desc
+		  $crud->dataview("SELECT * FROM abhishekam_payment_dt order by id desc
           " ); // l'appele du méthode d'affichage.
 	    ?>
     </table> 
