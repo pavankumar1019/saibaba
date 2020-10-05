@@ -30,13 +30,12 @@
             <th>Full name</th>
             <th>email_ID </th>
             <th>Address</th>
-            <th>E - mail</th>
             <th>Phone Number</th>
             <th>Event </th>
             <th>booking_date </th>
             <th>Amount </th>
             <th>transaction_ID </th>
-            <th>t_status </th>
+            <th>t_status</th>
             <th>Print </th>
             <!-- <th colspan="2" align="center">Actions</th> -->
         </tr>
