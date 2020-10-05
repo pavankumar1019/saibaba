@@ -1,0 +1,68 @@
+DROP TABLE IF EXISTS `mysql_table_search`;
+
+CREATE TABLE IF NOT EXISTS `mysql_table_search` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `from_date` date NOT NULL,
+  `to_date` date NOT NULL,
+  `full_name` varchar(250) NOT NULL,
+  `email` varchar(250) NOT NULL,
+  `city` varchar(250) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
+
+INSERT INTO `mysql_table_search` (`from_date`, `to_date`, `full_name`, `email`, `city`) VALUES
+('2020-11-28', '2020-12-04', 'Logan Brown', 'loganbrown@gmail.com', 'Portsmouth'),
+('2020-10-25', '2020-10-28', 'Noah Davies', 'noahdavies@gmail.com', 'Southampton'),
+('2020-08-18', '2020-08-24', 'Mason Wilson', 'masonwilson@gmail.com', 'London'),
+('2020-09-17', '2020-09-23', 'Liam Jones', 'liamjones@gmail.com', 'Sheffield'),
+('2020-07-12', '2020-07-16', 'Amelia Jones', 'ameliajones@gmail.com', 'London'),
+('2020-12-03', '2020-12-09', 'Emma Jackson', 'emmajackson@gmail.com', 'Birmingham'),
+('2020-08-03', '2020-08-07', 'William Johnson', 'williamjohnson@gmail.com', 'Leeds'),
+('2020-10-21', '2020-10-26', 'Elijah  Jones', 'elijahjones@gmail.com', 'Nottingham'),
+('2020-10-15', '2020-10-18', 'Logan Brown', 'loganbrown@gmail.com', 'Manchester'),
+('2020-07-28', '2020-07-31', 'Olivia Hall', 'oliviahall@gmail.com', 'London'),
+('2020-11-14', '2020-11-21', 'Benjamin Clarke', 'benjaminclarke@gmail.com', 'Leeds'),
+('2020-11-03', '2020-11-08', 'Amelia Roberts', 'ameliaroberts@gmail.com', 'Nottingham'),
+('2020-11-03', '2020-11-10', 'Emma Brown', 'emmabrown@gmail.com', 'Newcastle'),
+('2020-10-15', '2020-10-22', 'Olivia Robinson', 'oliviarobinson@gmail.com', 'Southampton'),
+('2020-12-09', '2020-12-12', 'Harper Jones', 'harperjones@gmail.com', 'Leeds'),
+('2020-10-05', '2020-10-11', 'Liam Jackson', 'liamjackson@gmail.com', 'Manchester'),
+('2020-10-03', '2020-10-07', 'Olivia Evans', 'oliviaevans@gmail.com', 'Leeds'),
+('2020-10-19', '2020-10-24', 'Noah Taylor', 'noahtaylor@gmail.com', 'Nottingham'),
+('2020-10-27', '2020-10-31', 'Benjamin Green', 'benjamingreen@gmail.com', 'Nottingham'),
+('2020-08-14', '2020-08-19', 'Mia Walker', 'miawalker@gmail.com', 'Newcastle'),
+('2020-08-27', '2020-09-02', 'Oliver Jackson', 'oliverjackson@gmail.com', 'Portsmouth'),
+('2020-08-21', '2020-08-26', 'William Roberts', 'williamroberts@gmail.com', 'Birmingham'),
+('2020-08-25', '2020-08-31', 'Liam Green', 'liamgreen@gmail.com', 'Nottingham'),
+('2020-10-28', '2020-11-03', 'Isabella Smith', 'isabellasmith@gmail.com', 'Manchester'),
+('2020-08-29', '2020-09-05', 'Emma Thompson', 'emmathompson@gmail.com', 'Southampton'),
+('2020-07-30', '2020-08-05', 'Sophia Robinson', 'sophiarobinson@gmail.com', 'Newcastle'),
+('2020-09-01', '2020-09-04', 'Elijah  White', 'elijahwhite@gmail.com', 'Manchester'),
+('2020-06-23', '2020-06-29', 'James Roberts', 'jamesroberts@gmail.com', 'Newcastle'),
+('2020-06-26', '2020-06-29', 'Emma Wright', 'emmawright@gmail.com', 'Southampton'),
+('2020-08-23', '2020-08-30', 'Liam Walker', 'liamwalker@gmail.com', 'Sheffield'),
+('2020-10-17', '2020-10-22', 'Ava Evans', 'avaevans@gmail.com', 'Liverpool'),
+('2020-07-25', '2020-07-31', 'Emma Hall', 'emmahall@gmail.com', 'London'),
+('2020-09-19', '2020-09-24', 'Liam Williams', 'liamwilliams@gmail.com', 'Liverpool'),
+('2020-07-16', '2020-07-21', 'Lucas Smith', 'lucassmith@gmail.com', 'London'),
+('2020-09-22', '2020-09-27', 'Mason Hall', 'masonhall@gmail.com', 'Liverpool'),
+('2020-08-17', '2020-08-22', 'Mia Robinson', 'miarobinson@gmail.com', 'Birmingham'),
+('2020-08-16', '2020-08-20', 'Logan Taylor', 'logantaylor@gmail.com', 'Birmingham'),
+('2020-06-21', '2020-06-28', 'Elijah  Smith', 'elijahsmith@gmail.com', 'Nottingham'),
+('2020-10-25', '2020-10-27', 'Harper Thompson', 'harperthompson@gmail.com', 'Southampton'),
+('2020-10-26', '2020-11-01', 'James Brown', 'jamesbrown@gmail.com', 'Birmingham'),
+('2020-12-05', '2020-12-11', 'Logan Thompson', 'loganthompson@gmail.com', 'Sheffield'),
+('2020-10-24', '2020-10-29', 'Amelia Walker', 'ameliawalker@gmail.com', 'Newcastle'),
+('2020-07-26', '2020-07-29', 'Elijah  Jones', 'elijahjones@gmail.com', 'Birmingham'),
+('2020-07-29', '2020-08-01', 'Mia Johnson', 'miajohnson@gmail.com', 'Nottingham'),
+('2020-10-31', '2020-11-04', 'William Johnson', 'williamjohnson@gmail.com', 'London'),
+('2020-06-24', '2020-06-28', 'Noah Wilson', 'noahwilson@gmail.com', 'Manchester'),
+('2020-11-24', '2020-11-30', 'Sophia Wood', 'sophiawood@gmail.com', 'Leeds'),
+('2020-10-25', '2020-10-29', 'Harper Johnson', 'harperjohnson@gmail.com', 'Southampton'),
+('2020-10-19', '2020-10-21', 'Logan Wright', 'loganwright@gmail.com', 'Portsmouth'),
+('2020-07-15', '2020-07-21', 'Elijah  Wilson', 'elijahwilson@gmail.com', 'Liverpool'),
+('2020-10-10', '2020-10-13', 'Sophia Williams', 'sophiawilliams@gmail.com', 'London');
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
