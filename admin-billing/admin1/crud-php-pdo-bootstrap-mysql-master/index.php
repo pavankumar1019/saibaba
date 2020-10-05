@@ -14,11 +14,10 @@
         <i class="glyphicon glyphicon-plus"></i> &nbsp; Offline Data
     </a>
 </div>
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
 <br />
 <div class="container"> 
     <!--creation du tableau-->
-	<table class='table table-bordered table-responsive' id="myTable"> 
+	<table class='table table-bordered table-responsive'> 
         <tr>
             <th>N°</th>
             <th>First Name </th>
