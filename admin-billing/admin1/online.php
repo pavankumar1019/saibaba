@@ -65,7 +65,7 @@ if ($result->num_rows > 0) {
 
                 	<td align="center">
 					
-                	<a href="delete.php?delete_id=<?php print($row['id']); ?>">
+                	<a href="online_bill.php?delete_id=<?php print($row['id']); ?>">
 					<i class="glyphicon glyphicon-print">Print Bill</i>
 					</a>
                 	</td> 
