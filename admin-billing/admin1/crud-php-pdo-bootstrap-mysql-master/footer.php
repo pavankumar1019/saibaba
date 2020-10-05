@@ -14,7 +14,22 @@ $(document).ready(function(){
     });
   });
 });
+
+
+function printData()
+{
+   var divToPrint=document.getElementById("myTable");
+   newWin= window.open("");
+   newWin.document.write(divToPrint.outerHTML);
+   newWin.print();
+   newWin.close();
+}
+
+$('#print').on('click',function(){
+printData();
+})
 </script>
+
 	<script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>

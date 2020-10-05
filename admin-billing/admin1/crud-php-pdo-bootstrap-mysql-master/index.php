@@ -14,6 +14,9 @@
     <a href="add-data.php" class="btn btn-large btn-info">
         <i class="glyphicon glyphicon-plus"></i> &nbsp; Offline Data
       </a>
+      <a href="add-data.php" id="print" class="btn btn-large btn-secondary">
+        <i class="glyphicon glyphicon-plus"></i> &nbsp;  Print Report
+      </a>
       <div class="input-group"  style="margin-top: 10px">
     <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
       <input id="myInput"  class="form-control " type="text" placeholder="Search..">
