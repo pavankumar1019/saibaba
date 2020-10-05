@@ -14,25 +14,21 @@ class crud // la class des operations avec la base de données.
 		$this->db = $DB_con;
 	}
 	
-	public function create($fname,$lname,$email,$contact,$event,$event_date,$amount,$amount,$state,$district,$address) // methode d'insertion des données.
+	public function create($fname,$lname,$email,$contact,$event) // methode d'insertion des données.
 	{
 		try
 		{
 			// préparation de la requete :
 			$stmt = $this->db->prepare(
-				"INSERT INTO tbl_Devotees_Data(first_name,last_name,email_id,contact_no,event_t,event_date,amount,state_t,district,address_t) 
-						VALUES(:fname, :lname, :email, :contact, :event, :event_date, :amount, :state, :district, :address)");
+				"INSERT INTO tbl_Devotees_Data(first_name,last_name,email_id,contact_no,event_t) 
+						VALUES(:fname, :lname, :email, :contact, :event)");
 			// affectations des valeurs :
 			$stmt->bindparam(":fname",$fname);
 			$stmt->bindparam(":lname",$lname);
 			$stmt->bindparam(":email",$email);
 			$stmt->bindparam(":contact",$contact);
 			$stmt->bindparam(":event",$event);
-			$stmt->bindparam(":event_date",$event_date);
-			$stmt->bindparam(":amount",$amount);
-			$stmt->bindparam(":state",$state);
-			$stmt->bindparam(":district",$district);
-			$stmt->bindparam(":address",$address);
+
 
 			// execution de la reqeute :
 			return $stmt->execute();
