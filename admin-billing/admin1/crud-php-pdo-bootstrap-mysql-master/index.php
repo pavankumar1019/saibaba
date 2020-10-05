@@ -18,7 +18,7 @@
 <br />
 <div class="container"> 
     <!--creation du tableau-->
-	<table class='table table-bordered table-responsive'> 
+	<table class='table table-bordered table-responsive' id="myTable"> 
         <tr>
             <th>N°</th>
             <th>First Name </th>
