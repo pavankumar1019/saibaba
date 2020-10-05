@@ -8,8 +8,15 @@ include_once 'dbconfig.php';
 if(isset($_POST['btn-save'])){ // test sur le bouton. 
 	$fname = $_POST['first_name']; // affectation des valeur evoier par la method post.
 	$lname = $_POST['last_name'];
-	$email = $_POST['email_id'];
-	$contact = $_POST['contact_no'];
+    $email = $_POST['email_id'];
+    $contact = $_POST['contact_no'];
+    $event = $_POST['event'];
+    $event_date = $_POST['event_date'];
+    $amount = $_POST['amount'];
+    $state = $_POST['state'];
+    $district = $_POST['district'];
+    $address = $_POST['address'];
+
 	if($crud->create($fname,$lname,$email,$contact)){ // test sur l'execution du requete, 
       //catch exception
       
@@ -60,19 +67,18 @@ if(isset($_GET['inserted'])){ // alors si on a on paramétre "inserted", on mets
             <td>Phone number</td><td><input type='text' name='contact_no' class='form-control' required></td>
         </tr>
         <tr>
-            <td>Event</td><td><select class="form-control custom-select" required>
+            <td>Event</td><td><select class="form-control custom-select" name="event" required>
   <option selected>Select Event</option>
-  <option value="1">Donate To Temple</option>
-  <option value="2">Pooja Booking</option>
-  <option value="3">Abhishekam & Archana</option>
-  <option value="3">Hundi</option>
+  <option value="Donate To Temple">Donate To Temple</option>
+  <option value="Pooja Booking">Pooja Booking</option>
+  <option value="Abhishekam & Archana">Abhishekam & Archana</option>
 </select></td>
         </tr>
         <tr>
-            <td>Event Date</td><td><input type='date' name='' class='form-control' required></td>
+            <td>Event Date</td><td><input type='date' name='event_date' class='form-control' required></td>
         </tr>
         <tr>
-            <td>Amount</td><td><input type='text' name='' class='form-control' required></td>
+            <td>Amount</td><td><input type='text' name='amount' class='form-control' required></td>
         </tr>
         <tr>
             <td>State</td><td><select name="state" id="state" class="form-control">
@@ -115,10 +121,10 @@ if(isset($_GET['inserted'])){ // alors si on a on paramétre "inserted", on mets
 </select></td>
         </tr>
         <tr>
-            <td>District</td><td><input type='text' name='' class='form-control' required></td>
+            <td>District</td><td><input type='text' name='district' class='form-control' required></td>
         </tr>
         <tr>
-            <td>Address with Post<br>(village/Area/taluk/post)</td><td> <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea></td>
+            <td>Address with Post<br>(village/Area/taluk/post)</td><td> <textarea class="form-control" name="address" id="exampleFormControlTextarea1" rows="3"></textarea></td>
         </tr>
         <tr>
             <td colspan="2">
