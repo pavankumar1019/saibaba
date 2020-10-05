@@ -24,7 +24,16 @@
             <th>Last Name</th>
             <th>E - mail</th>
             <th>Phone Number</th>
-            <th colspan="2" align="center">Actions</th>
+            <th>Event </th>
+            <th>Event Date </th>
+
+            <th>Amount </th>
+
+            <th>State </th>
+            <th>District </th>
+            <th>state </th>
+            <th>Address </th>
+            <!-- <th colspan="2" align="center">Actions</th> -->
         </tr>
         <?php    
 		  $crud->dataview("SELECT * FROM tbl_Devotees_Data order by id desc
