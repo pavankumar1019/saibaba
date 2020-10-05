@@ -17,7 +17,7 @@ if(isset($_POST['btn-save'])){ // test sur le bouton.
     $district = $_POST['district'];
     $address = $_POST['address'];
 
-	if($crud->create($fname,$lname,$email,$contact)){ // test sur l'execution du requete, 
+	if($crud->create($fname,$lname,$email,$contact,$event)){ // test sur l'execution du requete, 
       //catch exception
       
       header("Location: add-data.php?inserted");  
