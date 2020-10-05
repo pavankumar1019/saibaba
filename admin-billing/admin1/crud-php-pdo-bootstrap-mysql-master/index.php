@@ -27,7 +27,7 @@
             <th colspan="2" align="center">Actions</th>
         </tr>
         <?php    
-		  $crud->dataview("SELECT * FROM tbl_devotees_data order by id desc
+		  $crud->dataview("SELECT * FROM tbl_Devotees_Data order by id desc
           " ); // l'appele du méthode d'affichage.
 	    ?>
     </table> 
