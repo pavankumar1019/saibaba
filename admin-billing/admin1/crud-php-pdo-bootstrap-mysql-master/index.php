@@ -8,12 +8,14 @@
 <?php include_once 'dbconfig.php'; ?> <!--inclure de l'instance de la class crud-->
 <?php include_once 'header.php'; ?> <!--inclure le header de la page -->
 
-<div class="row">
+<div class="container">
     <!--lien vers la page d'ajoute d'utilisateur-->
+    <div class="row">
     <a href="add-data.php" class="btn btn-large btn-info">
         <i class="glyphicon glyphicon-plus"></i> &nbsp; Offline Data
       </a>
       <input id="myInput"  class="form-control" type="text" placeholder="Search..">
+</div>
 </div>
 <br />
 <div class="container"> 
