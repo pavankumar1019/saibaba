@@ -4,27 +4,18 @@
   Email : skhairimedaimane@gmail.com
   Repo : https://github.com/medaimane/crud-php-pdo-bootstrap-mysql
 */
-/*
-  Author : Pavan Kumar
-  Email : pavan5639kumar@gmail.com
-*/
 
-$DB_host = "localhost";
-$DB_user = "u430139865_ydyp";
-$DB_pass = "pavan5639";
-$DB_name = "u430139865_ydyp";
+include_once 'dbconfig.php';
 
-try
+if(isset($_POST['btn-del']))
 {
-	$DB_con = new PDO("mysql:host={$DB_host};dbname={$DB_name}",$DB_user,$DB_pass);
-	$DB_con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+	$id = $_GET['delete_id'];
+	$crud->delete($id);
+	header("Location: delete.php?deleted");	
 }
-catch(PDOException $e)
-{
-	echo $e->getMessage();
-}
+
 ?>
-
+<?php include_once 'header.php'; ?>
 
 <div class="container">
 
@@ -141,6 +132,11 @@ catch(PDOException $e)
     </tfoot>
   </tbody>
 </table>
+
+           <?php
+         }
+         ?>
+         </table>
          <?php
 	 }
 	 ?>
