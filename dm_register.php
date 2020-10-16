@@ -31,11 +31,3 @@ if(isset($_POST['submit']))
 	 mysqli_close($conn);
 }
 ?>
-<html>
-    <head>
-        <title>Register</title>
-        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-</head>
-<body>
-</body>
-    </html>
