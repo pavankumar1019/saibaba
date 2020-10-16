@@ -23,7 +23,7 @@
 <p class="h4 mb-4">Register !</p>
 
 <!-- Email -->
-<input type="text" name="name" class="form-control mb-4" placeholder="Name"  required>
+<input type="text" name="name_d" class="form-control mb-4" placeholder="Name"  required>
 
 <!-- Password -->
 <input type="text" name="desg" class="form-control mb-4" placeholder="Designation"  required>

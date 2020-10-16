@@ -9,9 +9,9 @@ if(!$conn){
 }
 ?>
 <?php
-if(isset($_POST['save']))
+if(isset($_POST['submit']))
 {	 
-	 $first_name = $_POST['name'];
+	 $first_name = $_POST['name_d'];
 	 $last_name = $_POST['desg'];
 	 $city_name = $_POST['number'];
 	 $sql = "INSERT INTO dm_devotees (name,designation,phone)
