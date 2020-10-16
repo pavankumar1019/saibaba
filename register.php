@@ -7,7 +7,7 @@ $desg = $_POST['desg'];
 $contact = $_POST['number'];
 if($name !=''||$desg !=''){
 //Insert Query of SQL
-$query = mysql_query("insert dm devotees(name, designation, phone) values ('$name', '$desg', '$contact')");
+$query = mysql_query("insert dm_devotees(name, designation, phone) values ('$name', '$desg', '$contact')");
 
 }
 else{
