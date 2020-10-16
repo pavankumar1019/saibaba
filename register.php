@@ -35,7 +35,7 @@
 </div>
 
 <!-- Sign in button -->
-<button class="btn btn-info btn-block my-4" name="submit" type="submit">Register</button>
+<input type="submit" class="btn btn-info btn-block my-4" name="submit" type="submit" placeholder="Submit">
 
 <!-- Register -->
 <p>Register here for latest update from temple
