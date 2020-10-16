@@ -21,8 +21,8 @@ if(isset($_POST['submit']))
         <script>swal("Thank You!", "Your Registration Success!", "success");</script>
         <?php
 	 } else {
-         ?>
-        <script>swal("Thank You!", "already  Registration Done!", "success");</script>
+        ?>
+        <script>swal("Thank You!", "Your Registration Success!", "success");</script>
         <?php
 	 }
 	 mysqli_close($conn);
