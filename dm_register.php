@@ -17,11 +17,11 @@ if(isset($_POST['submit']))
 	 $sql = "INSERT INTO dm_devotees (name,designation,phone)
 	 VALUES ('$first_name','$last_name','$city_name')";
 	 if (mysqli_query($conn, $sql)) {
-        ?>
-        <script>swal("Thank You!", "Your Registration Success!", "success");
+       echo"
+        <script>swal('Thank You!', 'Your Registration Success!', 'success');
      window.location.replace('register.php');
-    </script>
-        <?php
+    </script>";
+       
                
 	 } else {
         echo "<script>alert('already Done!');
