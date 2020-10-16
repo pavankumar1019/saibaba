@@ -18,7 +18,7 @@ if(isset($_POST['submit']))
 	 VALUES ('$first_name','$last_name','$city_name')";
 	 if (mysqli_query($conn, $sql)) {
         ?>
-        <script>swal("Thank You!", "You registration success!", "success");</script>
+        <script>swal("Thank You!", "Your Registration Success!", "success");</script>
         <?php
 	 } else {
 		echo "Error: " . $sql . "
