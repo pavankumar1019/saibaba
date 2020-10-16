@@ -4,16 +4,10 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Shri Shirdi Sai Baba</title>
-<!-- 
 
-Highway Template
-
-https://templatemo.com/tm-520-highway
-
--->
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="shortcut icon" href="img/om.png" type="image/x-icon">
 
 
         <link href="https://fonts.googleapis.com/css?family=Kanit:100,200,300,400,500,600,700,800,900" rel="stylesheet">
@@ -334,7 +328,7 @@ if (is_dir($imagesDirectory))
                         <a href="donate.html">Donate</a>
                     </li>
                     <li>
-                        <a href="#">Cultural Registration Form</a>
+                    <a href="admin-uploads-to-website/">Admin login</a>
                     </li>
                 </ul>
                 <a href="#" class="fa fa-facebook"></a>
