@@ -18,7 +18,7 @@
 </head>
 <body>
     <!-- Default form login -->
-<form class="text-center border border-light p-5" action="<?=$_SERVER['PHP_SELF'];?>" method="post">
+<form class="text-center border border-light p-5" action="dm_register.php" method="POST">
 
 <p class="h4 mb-4">Register !</p>
 
@@ -35,7 +35,7 @@
 </div>
 
 <!-- Sign in button -->
-<input type="submit" class="btn btn-info btn-block my-4" name="submit" type="submit" placeholder="Submit">
+<button class="btn btn-info btn-block my-4" name="submit" type="submit">Register</button>
 
 <!-- Register -->
 <p>Register here for latest update from temple
