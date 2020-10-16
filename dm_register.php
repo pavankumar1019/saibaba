@@ -17,7 +17,9 @@ if(isset($_POST['submit']))
 	 $sql = "INSERT INTO dm_devotees (name,designation,phone)
 	 VALUES ('$first_name','$last_name','$city_name')";
 	 if (mysqli_query($conn, $sql)) {
-		echo "New record created successfully !";
+        ?>
+        <script>swal("Thank You!", "You registration success!", "success");</script>
+        <?php
 	 } else {
 		echo "Error: " . $sql . "
 " . mysqli_error($conn);
@@ -25,3 +27,11 @@ if(isset($_POST['submit']))
 	 mysqli_close($conn);
 }
 ?>
+<html>
+    <head>
+        <title>Register</title>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+</body>
+    </html>
