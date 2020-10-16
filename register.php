@@ -16,9 +16,6 @@ echo "<p>Insertion Failed <br/> Some Fields are Blank....!!</p>";
 }
 mysql_close($connection); // Closing Connection with Server
 ?>
-
-
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
