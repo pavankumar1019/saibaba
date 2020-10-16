@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
@@ -36,13 +36,14 @@
 </div>
 
 <!-- Sign in button -->
-<button class="btn btn-info btn-block my-4" type="submit">Sign in</button>
+<button class="btn btn-info btn-block my-4" type="submit">Register</button>
 
 <!-- Register -->
 <p>Register here for latest update from temple
 </p>
 
 </form>
+<script>swal("Good job!", "You clicked the button!", "success");</script>
 <!-- Default form login -->
 </body>
 </html>
