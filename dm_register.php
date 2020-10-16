@@ -18,7 +18,7 @@ if(isset($_POST['submit']))
 	 VALUES ('$first_name','$last_name','$city_name')";
 	 if (mysqli_query($conn, $sql)) {
        echo"
-        <script>swal('Thank You!', 'Your Registration Success!', 'success');
+        <script>alert('Thank You!');
      window.location.replace('register.php');
     </script>";
        
