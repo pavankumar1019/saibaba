@@ -8,9 +8,7 @@ $contact = $_POST['number'];
 if($name !=''||$desg !=''){
 //Insert Query of SQL
 $query = mysql_query("insert dm devotees(name, designation, phone) values ('$name', '$desg', '$contact')");
-?>
-<script>swal("Thank you!", "Your Registration Success!", "success");</script>
-<?php
+
 }
 else{
 echo "<p>Insertion Failed <br/> Some Fields are Blank....!!</p>";
