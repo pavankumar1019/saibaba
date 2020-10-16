@@ -18,12 +18,15 @@ if(isset($_POST['submit']))
 	 VALUES ('$first_name','$last_name','$city_name')";
 	 if (mysqli_query($conn, $sql)) {
         ?>
-        <script>swal("Thank You!", "Your Registration Success!", "success");</script>
+        <script>swal("Thank You!", "Your Registration Success!", "success");
+     window.location.replace('register.php');
+    </script>
         <?php
                
 	 } else {
-        echo "<script>alert('already Done!')</script>";
-        header("location: register.php");
+        echo "<script>alert('already Done!');
+        window.location.replace('register.php');
+        </script>";
 	 }
 	 mysqli_close($conn);
 }
