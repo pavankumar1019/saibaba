@@ -18,7 +18,7 @@
 </head>
 <body>
     <!-- Default form login -->
-<form class="text-center border border-light p-5" action="" method="post">
+<form class="text-center border border-light p-5" action="<?=$_SERVER['PHP_SELF'];?>" method="post">
 
 <p class="h4 mb-4">Register !</p>
 
