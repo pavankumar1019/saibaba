@@ -20,8 +20,10 @@ if(isset($_POST['submit']))
         ?>
         <script>swal("Thank You!", "Your Registration Success!", "success");</script>
         <?php
+                header("location:register.php");
 	 } else {
         echo "<script>alert('already Done!')</script>";
+        header("location:register.php");
 	 }
 	 mysqli_close($conn);
 }
