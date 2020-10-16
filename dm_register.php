@@ -1,18 +1,27 @@
 <?php
-$connection = mysql_connect("localhost", "u430139865_ydyp", "pavan5639"); // Establishing Connection with Server
-$db = mysql_select_db("u430139865_ydyp", $connection); // Selecting Database from Server
-if(isset($_POST['submit'])){ // Fetching variables of the form which travels in URL
-$name = $_POST['name'];
-$desg = $_POST['desg'];
-$contact = $_POST['number'];
-if($name !=''||$desg !=''){
-//Insert Query of SQL
-$query = mysql_query("insert dm_devotees(name, designation, phone) values ('$name', '$desg', '$contact')");
-echo "<p>Insertion Done <br/></p>";
+$servername='localhost';
+$username='u430139865_ydyp';
+$password='pavan5639';
+$dbname = "u430139865_ydyp";
+$conn=mysqli_connect($servername,$username,$password,"$dbname");
+if(!$conn){
+   die('Could not Connect My Sql:' .mysql_error());
 }
-else{
-echo "<p>Insertion Failed <br/> Some Fields are Blank....!!</p>";
+?>
+<?php
+if(isset($_POST['save']))
+{	 
+	 $first_name = $_POST['name'];
+	 $last_name = $_POST['desg'];
+	 $city_name = $_POST['number'];
+	 $sql = "INSERT INTO d,_devotees (name,designation,phone)
+	 VALUES ('$first_name','$last_name','$city_name')";
+	 if (mysqli_query($conn, $sql)) {
+		echo "New record created successfully !";
+	 } else {
+		echo "Error: " . $sql . "
+" . mysqli_error($conn);
+	 }
+	 mysqli_close($conn);
 }
-}
-mysql_close($connection); // Closing Connection with Server
 ?>
