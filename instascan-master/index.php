@@ -42,7 +42,7 @@
   
 				
 			<div class="col">
-				<script src="src/instascan.min.js"></script>
+				<script src="https://rawgit.com/schmich/instascan-builds/master/instascan.min.js"></script>
 				<h1><a id="resul"></a></h1>
 				<script type="text/javascript">
 					var scanner = new Instascan.Scanner({ video: document.getElementById('preview'), scanPeriod: 5, mirror: true });
