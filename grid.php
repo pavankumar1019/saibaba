@@ -250,7 +250,7 @@ if (is_dir($imagesDirectory))
     <footer>
         <div class="container-fluid">
             <div class="col-md-12">
-                <p>PK|P developer</p>
+                <p>PK developer</p>
             </div>
         </div>
     </footer>

@@ -4,7 +4,7 @@
       <footer class="sticky-footer bg-white">
         <div class="container my-auto">
           <div class="copyright text-center my-auto">
-            <span>PK|P Developers </span>
+            <span>PK Developer </span>
           </div>
         </div>
       </footer>
