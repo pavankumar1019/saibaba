@@ -325,7 +325,7 @@ if (is_dir($imagesDirectory))
                         <a href="Video.php">Video-Gallery</a>
                     </li>
                     <li>
-                        <a href="donate.html">Donate</a>
+                        <a href="donate.html">Online Services</a>
                     </li>
                     <li>
                     <a href="admin-uploads-to-website/">Admin login</a>
