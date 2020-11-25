@@ -78,12 +78,12 @@
       </li>
 
       
-<li class="nav-item">
+<!-- <li class="nav-item">
   <a class="nav-link" href="register.php">
     <i class="fas fa-fw fa-chart-area"></i>
     <span>Admin Profile</span></a>
 </li>
-     
+      -->
 
       <!-- Divider -->
       <hr class="sidebar-divider">
