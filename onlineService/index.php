@@ -111,11 +111,11 @@ function getCallbackUrl()
                              <label>Event Booking Date:-</label>
 
                             <div class="input-group">
-                               <input class="form-control"  type="date" id="udf5" name="udf5" value="BOLT_KIT_PHP7" />
+                               <input class="input--style-1"  type="date" id="udf5" name="udf5" value="BOLT_KIT_PHP7" />
                                 </div>
                                 <label>Address:-</label>
                          <div class="input-group">
-                                <input class="form-control"  type="text" id="udf4" name="udf4" placeholder="Your Address" value="" />
+                                <input class="input--style-1"  type="text" id="udf4" name="udf4" placeholder="Your Address" value="" />
                           </div>
                                
                                 
@@ -124,7 +124,7 @@ function getCallbackUrl()
                        <label>Price:-</label>
                         <div class="row row-space">
                             
-                            <select class="form-control"  id="amount2"   onChange="check();" name="amount2"  required> 
+                            <select class="input--style-1"  id="amount2"   onChange="check();" name="amount2"  required> 
                                             <option selected value="0.00">0.00</option>
                                             <option value="500.0">500.0</option>
                                             <option value="1000.0">1000.0</option>
