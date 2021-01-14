@@ -112,8 +112,8 @@ function getCallbackUrl()
                         <input class="input--style-1"  type="text" id="udf4" name="udf4" placeholder="Your Address" value="" />
                         </div>
                         <div class="input-group">
-                        <label>Price:-</label>
-                        <select class="form-control"  id="amount2"   onChange="check();" name="amount2"  required> 
+                        <label>Price:-</label><br>
+                        <select class="input--style-1" style="border:none;" id="amount2"   onChange="check();" name="amount2"  required> 
                                             <option selected value="0.00">0.00</option>
                                             <option value="500.0">500.0</option>
                                             <option value="1000.0">1000.0</option>
