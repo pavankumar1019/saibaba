@@ -1,5 +1,9 @@
 <?php include("db/fetch_gateway.php");?>
 <?php
+include_once 'db/database.php';
+$result = mysqli_query($conn,"SELECT * FROM events");
+?>
+<?php
 if(strcasecmp($_SERVER['REQUEST_METHOD'], 'POST') == 0){
 	//Request hash
 	$contentType = isset($_SERVER["CONTENT_TYPE"]) ? trim($_SERVER["CONTENT_TYPE"]) : '';	
@@ -70,6 +74,23 @@ function getCallbackUrl()
 
     <!-- Main CSS-->
     <link href="css/main.css" rel="stylesheet" media="all">
+
+    <script>
+function showUser(str) {
+  if (str=="") {
+    document.getElementById("txtHint").innerHTML="";
+    return;
+  }
+  var xmlhttp=new XMLHttpRequest();
+  xmlhttp.onreadystatechange=function() {
+    if (this.readyState==4 && this.status==200) {
+      document.getElementById("txtHint").innerHTML=this.responseText;
+    }
+  }
+  xmlhttp.open("GET","getuser.php?q="+str,true);
+  xmlhttp.send();
+}
+</script>
 </head>
 <body>
     <div class="page-wrapper bg-blue p-t-100 p-b-100 font-robo">
@@ -90,7 +111,7 @@ function getCallbackUrl()
                                     <input class="input--style-1" type="hidden" id="salt" name="salt" placeholder="Merchant Salt" value="<?php echo $merchent_salt; ?>" />
                                     <input class="input--style-1" type="hidden" id="txnid" name="txnid" placeholder="Transaction ID" value="<?php echo  "Txn" . rand(10000,99999999)?>" />
                                    
-                                     <input type="hidden" id="amount" name="amount" placeholder="Amount" /> 
+                                    
                                     <input class="input--style-1" type="hidden" id="hash" name="hash" placeholder="Hash" value="" />
 
                                     <!-- Dispaly Fileds for the payment  gateway -->
@@ -110,10 +131,16 @@ function getCallbackUrl()
                         <div class="input-group">
                       
                                          <select class="form-control" style="border:none;" id="pinfo"    name="pinfo" required> 
-                                            <option selected value="0.00">0</option>
-                                            <option value="500.0">500.0</option>
-                                            <option value="1000.0">1000.0</option>
-                                            <option value="1500.0">1500.0</option>
+                                         <?php
+$i=0;
+while($row = mysqli_fetch_array($result)) {
+?>
+
+<option value="<?php echo $row["id"]; ?>"><?php echo $row["name"]; ?></option>
+<?php
+$i++;
+}
+?>
                                             </select>
                     </div>
                         <div class="input-group">
@@ -121,14 +148,8 @@ function getCallbackUrl()
                         <input class="input--style-1"  type="date" id="udf5" name="udf5" value="BOLT_KIT_PHP7" />
                         </div>
                         <label>Price:-</label><br>
-                        <div class="input-group">
-                        
-                        <select class="form-control" style="border:none;" id="amount2"   onChange="check();" name="amount2"  required> 
-                                            <option selected value="0.00">0.00</option>
-                                            <option value="500.0">500.0</option>
-                                            <option value="1000.0">1000.0</option>
-                                            <option value="1500.0">1500.0</option>
-                                            </select>
+                        <div class="input-group" id="txtHint">
+                       
                         </div>
                              <div class="p-t-20">
                              <ul class="list-group">
