@@ -114,7 +114,7 @@ function getCallbackUrl()
                         <label>Price:-</label><br>
                         <div class="input-group">
                         
-                        <select class="input--style-1" style="border:none;" id="amount2"   onChange="check();" name="amount2"  required> 
+                        <select class="form-control" style="border:none;" id="amount2"   onChange="check();" name="amount2"  required> 
                                             <option selected value="0.00">0.00</option>
                                             <option value="500.0">500.0</option>
                                             <option value="1000.0">1000.0</option>
