@@ -89,7 +89,7 @@ function getCallbackUrl()
                                     <input class="input--style-1" type="hidden" id="key" name="key" placeholder="Merchant Key" value="<?php echo $merchent_key; ?> "/>
                                     <input class="input--style-1" type="hidden" id="salt" name="salt" placeholder="Merchant Salt" value="<?php echo $merchent_salt; ?>" />
                                     <input class="input--style-1" type="hidden" id="txnid" name="txnid" placeholder="Transaction ID" value="<?php echo  "Txn" . rand(10000,99999999)?>" />
-                                    <input type="hidden" id="pinfo" name="pinfo" placeholder="Product Info" value="Private Pooja" />
+                                   
                                      <input type="hidden" id="amount" name="amount" placeholder="Amount" /> 
                                     <input class="input--style-1" type="hidden" id="hash" name="hash" placeholder="Hash" value="" />
 
@@ -102,14 +102,22 @@ function getCallbackUrl()
                         <div class="input-group">
                             <input class="input--style-1"  type="text" id="mobile" name="mobile" onkeypress="return isNumber(event)" name="fname" placeholder="MOBILE NUMBER" required>
                         </div>
-                    
-                        <div class="input-group">
-                        <label>Event Booking Date:-</label>
-                        <input class="input--style-1"  type="date" id="udf5" name="udf5" value="BOLT_KIT_PHP7" />
-                        </div>
                         <div class="input-group">
                         <label>Address:-</label>
                         <input class="input--style-1"  type="text" id="udf4" name="udf4" placeholder="Your Address" value="" />
+                        </div>
+                        <div class="input-group">
+                        <label>Event:-</label>
+                                         <select class="form-control" style="border:none;" id="pinfo"    name="pinfo" required> 
+                                            <option selected value="0.00">0</option>
+                                            <option value="500.0">500.0</option>
+                                            <option value="1000.0">1000.0</option>
+                                            <option value="1500.0">1500.0</option>
+                                            </select>
+                    </div>
+                        <div class="input-group">
+                        <label>Event Booking Date:-</label>
+                        <input class="input--style-1"  type="date" id="udf5" name="udf5" value="BOLT_KIT_PHP7" />
                         </div>
                         <label>Price:-</label><br>
                         <div class="input-group">
