@@ -1,7 +1,7 @@
 <?php
 include_once 'db/database.php';
 $q = intval($_GET['q']);
-$result = mysqli_query($conn,"SELECT * FROM events WHERE id = '".$q."'");
+$result = mysqli_query($conn,"SELECT * FROM dm_events WHERE id = '".$q."'");
 ?>
  <?php
 $i=0;
