@@ -137,7 +137,7 @@ $i=0;
 while($row = mysqli_fetch_array($result)) {
 ?>
 
-<option value="<?php echo $row["id"]; ?>"><?php echo $row["name"]; ?></option>
+<option value="<?php echo $row["name"]; ?>"><?php echo $row["name"]; ?></option>
 <?php
 $i++;
 }
