@@ -79,7 +79,7 @@ function getCallbackUrl()
                 <div class="name" style="display:flex;justify-content:center;align-items:center;"><h1 style="margin-top:10px;">Online Service</h1></div>
                 <div class="card-body">
                     <h2 class="title">DM Shri Shirdi Sai Baba Temple Trust</h2>
-                     <h2  class="title">Private Pooja</h2>
+                     
                     <form  id="payment_form" action="#">
                         <div class="input-group">
 
