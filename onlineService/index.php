@@ -185,9 +185,7 @@ function isNumber(evt) {
     }
     return true;
 }
-function check() {
- document.getElementById("amount").value = document.getElementById("amount2").value ;
-} 
+
 </script>
 
             <!-- Jquery for the payment function and the hash generator  -->
