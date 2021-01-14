@@ -103,34 +103,22 @@ function getCallbackUrl()
                             <input class="input--style-1"  type="text" id="mobile" name="mobile" onkeypress="return isNumber(event)" name="fname" placeholder="MOBILE NUMBER" required>
                         </div>
                     
-                        <div class="row row-space">
-                          
-
-<!-- date -->
-
-                             <label>Event Booking Date:-</label>
-
-                            <div class="input-group">
-                               <input class="input--style-1"  type="date" id="udf5" name="udf5" value="BOLT_KIT_PHP7" />
-                                </div>
-                                <label>Address:-</label>
-                         <div class="input-group">
-                                <input class="input--style-1"  type="text" id="udf4" name="udf4" placeholder="Your Address" value="" />
-                          </div>
-                               
-                                
+                        <div class="input-group">
+                        <label>Event Booking Date:-</label>
+                        <input class="input--style-1"  type="date" id="udf5" name="udf5" value="BOLT_KIT_PHP7" />
                         </div>
-                       <!-- Abishakam and Archana -->
-                       <label>Price:-</label>
-                        <div class="row row-space">
-                            
-                            <select class="input--style-1"  id="amount2"   onChange="check();" name="amount2"  required> 
+                        <div class="input-group">
+                        <label>Address:-</label>
+                        <input class="input--style-1"  type="text" id="udf4" name="udf4" placeholder="Your Address" value="" />
+                        </div>
+                        <div class="input-group">
+                        <label>Price:-</label>
+                        <select class="form-control"  id="amount2"   onChange="check();" name="amount2"  required> 
                                             <option selected value="0.00">0.00</option>
                                             <option value="500.0">500.0</option>
                                             <option value="1000.0">1000.0</option>
                                             <option value="1500.0">1500.0</option>
                                             </select>
-                            
                         </div>
                              <div class="p-t-20">
                              <ul class="list-group">
