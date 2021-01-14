@@ -130,7 +130,7 @@ function showUser(str) {
                         <label>Event:-</label><br>
                         <div class="input-group">
                       
-                                         <select class="form-control" style="border:none;" id="pinfo"    name="pinfo" required> 
+                                         <select class="form-control" style="border:none;" id="pinfo"  onchange="showUser(this.value)"    name="pinfo" required> 
                                          <?php
 $i=0;
 while($row = mysqli_fetch_array($result)) {
