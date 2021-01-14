@@ -1,7 +1,7 @@
-<?php include("db/fetch_gateway.php");?>
-<?php
-include_once 'db/database.php';
-$result = mysqli_query($conn,"SELECT * FROM events");
+<?php 
+include("db/fetch_gateway.php");
+include("db/database.php");
+$result = mysqli_query($conn,"SELECT * FROM dm_events");
 ?>
 <?php
 if(strcasecmp($_SERVER['REQUEST_METHOD'], 'POST') == 0){
