@@ -131,7 +131,8 @@ function showUser(str) {
                         <div class="input-group">
                       
                                          <select class="form-control" style="border:none;" id="pinfo"  onchange="showUser(this.value)"    name="pinfo" required> 
-                                         <?php
+                                         <option value="" selected>Select Events:</option>
+                                        <?php
 $i=0;
 while($row = mysqli_fetch_array($result)) {
 ?>
@@ -148,7 +149,7 @@ $i++;
                         <input class="input--style-1"  type="date" id="udf5" name="udf5" value="BOLT_KIT_PHP7" />
                         </div>
                         <label>Price:-</label><br>
-                        <div class="input-group" id="txtHint">
+                        <div class="input-group" id="txtHint" style="color:red;">
                        
                         </div>
                              <div class="p-t-20">
