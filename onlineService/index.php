@@ -75,7 +75,8 @@ function getCallbackUrl()
     <div class="page-wrapper bg-blue p-t-100 p-b-100 font-robo">
         <div class="wrapper wrapper--w680">
             <div class="card card-1">
-                <div class="card-heading" style=" background: url('download.jpg') center center/cover no-repeat;"></div>
+                <!-- <div class="card-heading" style=" background: url('download.jpg') center center/cover no-repeat;"></div> -->
+                <div class="card-heading" style=""><h1>Online Services</h1></div>
                 <div class="card-body">
                     <h2 class="title">DM Shri Shirdi Sai Baba Temple Trust</h2>
                      <h2  class="title">Private Pooja</h2>
