@@ -106,8 +106,9 @@ function getCallbackUrl()
                         <label>Address:-</label>
                         <input class="input--style-1"  type="text" id="udf4" name="udf4" placeholder="Your Address" value="" />
                         </div>
+                        <label>Event:-</label><br>
                         <div class="input-group">
-                        <label>Event:-</label>
+                      
                                          <select class="form-control" style="border:none;" id="pinfo"    name="pinfo" required> 
                                             <option selected value="0.00">0</option>
                                             <option value="500.0">500.0</option>
