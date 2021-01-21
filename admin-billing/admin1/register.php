@@ -1,4 +1,9 @@
 <?php
+session_start();
+if(!$_SESSION['user_email']){
+  header("location: index.php");
+  die();
+}
 include('includes/header.php'); 
 include('includes/navbar.php'); 
 ?>
