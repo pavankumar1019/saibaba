@@ -13,6 +13,18 @@
 <title>DM Shri Shirdi Sai Baba</title>
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<style>
+	@media print { 
+    @page { 
+        margin-top: 0; 
+        margin-bottom: 0; 
+    } 
+    body { 
+        padding-top: 72px; 
+        padding-bottom: 72px ; 
+    } 
+} 
+</style>
 </head>
 <body>
 	<div class="navbar navbar-default navbar-static-top" role="navigation">
