@@ -165,7 +165,7 @@ if(!$_SESSION['user_email']){
     marginheight="0" 
     marginwidth="0" 
     width="100%" 
-    height="100%"  src="crud-php-pdo-bootstrap-mysql-master/add-data.php" allowfullscreen></iframe>
+    height="100%"  src="./crud-php-pdo-bootstrap-mysql-master/add-data.php" allowfullscreen></iframe>
 
             </div>
 
@@ -182,7 +182,7 @@ if(!$_SESSION['user_email']){
       <footer class="sticky-footer bg-white">
         <div class="container my-auto">
           <div class="copyright text-center my-auto">
-            <span>Pavan Kumar | webdeveloper  </span>
+            <span>Rats Technologies  </span>
           </div>
         </div>
       </footer>

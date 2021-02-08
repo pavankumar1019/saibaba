@@ -6,9 +6,9 @@ class ArticlesCrud{
 	private $connection;
 
 	private $host = 'localhost';
-	private $db = 'u430139865_ydyp';
-	private $user = 'u430139865_ydyp';
-	private $pass = 'pavan5639';
+	private $db = 'u815129216_dm';
+	private $user = 'u815129216_dm';
+	private $pass = 'Pavan5639';
 
 	public function __construct(){
 		try
