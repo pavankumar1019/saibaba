@@ -5,9 +5,9 @@
 */
 
 $DB_host = "localhost";
-$DB_user = "u430139865_ydyp";
-$DB_pass = "pavan5639";
-$DB_name = "u430139865_ydyp";
+$DB_user = "u815129216_dm";
+$DB_pass = "Pavan5639";
+$DB_name = "u815129216_dm";
 
 try
 {
