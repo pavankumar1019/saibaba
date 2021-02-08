@@ -192,9 +192,9 @@
 <!-- my sql fetch videos by pavan kumar -->
 <?php
 $servername = "localhost";
-$username = "u430139865_ydyp";
-$password = "pavan5639";
-$dbname = "u430139865_ydyp";
+$username = "u815129216_dm";
+$password = "Pavan5639";
+$dbname = "u815129216_dm";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
