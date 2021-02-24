@@ -45,10 +45,10 @@ function getCallbackUrl()
                             <!-- BOLT Sandbox/test //-->
 <!-- <script id="bolt" src="https://sboxcheckout-static.citruspay.com/bolt/run/bolt.min.js"></script> -->
 
-<script id="bolt" src="<?php echo $merchent_mode; ?>"></script>
+<!-- <script id="bolt" src="<?php echo $merchent_mode; ?>"></script> -->
 
                             <!-- BOLT Production/Live //-->
-<!--// script id="bolt" src="https://checkout-static.citruspay.com/bolt/run/bolt.min.js" ></script //-->
+<script id="bolt" src="https://checkout-static.citruspay.com/bolt/run/bolt.min.js" ></script>
 
 
 
