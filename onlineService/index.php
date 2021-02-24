@@ -43,12 +43,12 @@ function getCallbackUrl()
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
                             <!-- BOLT Sandbox/test //-->
-<script id="bolt" src="https://sboxcheckout-static.citruspay.com/bolt/run/bolt.min.js"></script>
+<!-- <script id="bolt" src="https://sboxcheckout-static.citruspay.com/bolt/run/bolt.min.js"></script> -->
 
 <!-- <script id="bolt" src="<?php echo $merchent_mode; ?>"></script> -->
 
                             <!-- BOLT Production/Live //-->
- <!-- <script id="bolt" src="https://checkout-static.citruspay.com/bolt/run/bolt.min.js" ></script> -->
+ <script id="bolt" src="https://checkout-static.citruspay.com/bolt/run/bolt.min.js" ></script>
 
 
 
