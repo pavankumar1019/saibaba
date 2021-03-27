@@ -74,7 +74,7 @@ if (is_dir($imagesDirectory))
 ?>
            <div class="col">
                  <div class="card">
-                 <img src=" <?php echo "<img src='../admin-uploads-to-website/insert-admin/images/".$image."'> ";?>" alt="Gallery" srcset="">
+               <?php echo "<img src='../admin-uploads-to-website/insert-admin/images/".$image."'> ";?>
                  </div>
         </div>                           
 <?php
