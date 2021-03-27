@@ -200,7 +200,7 @@ if ($result->num_rows > 0) {
   // output data of each row
   while($row = $result->fetch_assoc()) {
     ?>
-    <div class="col m-2">
+    <div class="container col-md-6">
     <div class="embed-responsive embed-responsive-16by9">
                                 <?php echo $row["first_name"];?>
   </div>
