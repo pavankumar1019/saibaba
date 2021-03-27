@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+<?php
+include('../dbconnection/db.php'); 
+?>
 <html>
     <head>
         <meta charset="utf-8">
@@ -190,17 +192,6 @@
 
 <!-- my sql fetch videos by pavan kumar -->
 <?php
-$servername = "localhost";
-$username = "u430139865_dm";
-$password = "P0g/&W2zu+";
-$dbname = "u430139865_dm";
-
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-// Check connection
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
-}
 
 $sql = "SELECT id, first_name, last_name FROM tbl_sample";
 $result = $conn->query($sql);
@@ -233,7 +224,7 @@ $conn->close();
     <footer>
         <div class="container-fluid">
             <div class="col-md-12">
-                <p>PK|P developer</p>
+            <p style="text-align: center"> Copyright &copy;<script>document.write(new Date().getFullYear())</script>&nbsp;<a href="" style="color:black;">DM SHRI SHIRDI SAI BABA TEMPLE</a> All Rights Reserved</p>
             </div>
         </div>
     </footer>
