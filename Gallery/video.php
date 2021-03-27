@@ -4,24 +4,19 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Shri Shirdi Sai Baba Temple</title>
-        <link rel="shortcut icon" href="img/om.png" type="image/x-icon">
-
-
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-
 
         <link href="https://fonts.googleapis.com/css?family=Kanit:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="css/fontAwesome.css">
-        <link rel="stylesheet" href="css/light-box.css">
-        <link rel="stylesheet" href="css/templatemo-style.css">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="../css/fontAwesome.css">
+        <link rel="stylesheet" href="../css/light-box.css">
+        <link rel="stylesheet" href="../css/templatemo-style.css">
 
         <link href="https://fonts.googleapis.com/css?family=Kanit:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
-        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script src="../js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 
         <style>
             .fa {
@@ -251,12 +246,12 @@ $conn->close();
   
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script>window.jQuery || document.write('<script src="../js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
-    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="../js/vendor/bootstrap.min.js"></script>
     
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+    <script src="../js/plugins.js"></script>
+    <script src="../js/main.js"></script>
 
 </body>
 </html>
