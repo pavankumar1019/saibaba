@@ -172,5 +172,20 @@
     <div class="container-fluid p-2" style="background: #F95700FF;" >
         <p style="text-align: center"> Copyright &copy;<script>document.write(new Date().getFullYear())</script>&nbsp;<a href="" style="color:black;">DM SHRI SHIRDI SAI BABA TEMPLE</a> All Rights Reserved</p>
     </div>
+    <script>
+      var t= new Date();
+      panchang.calculate(t, function() {
+        document.getElementById("day").innerHTML=panchang.Day.name;
+        document.getElementById("tithi").innerHTML=panchang.Tithi.name;
+        // document.getElementById("nakshtra").innerHTML=panchang.Nakshatra.name;
+        // document.getElementById("karna").innerHTML=panchang.Karna.name;
+        // document.getElementById("yoga").innerHTML=panchang.Yoga.name;
+        // document.getElementById("raasi").innerHTML=panchang.Raasi.name;
+        // document.getElementById("ayanamsa").innerHTML=panchang.Ayanamsa.name;
+
+      });
+      document.getElementById("Gulikhala").innerHTML = gulikhal;
+document.getElementById("Yamagandakhala").innerHTML = yamaganda;
+    </script>
 </body>
 </html>
