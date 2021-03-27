@@ -70,10 +70,11 @@ if (is_dir($imagesDirectory))
       
       
 ?>
+
            <div class="col">
-                 <div class="card">
-               <?php echo "<img src='../admin-uploads-to-website/insert-admin/images/".$image."'> ";?>
-                 </div>
+           <div class="card" style="width: 18rem;">
+  <?php echo "<img  class='card-img-top' src='../admin-uploads-to-website/insert-admin/images/".$image."'> ";?>
+</div>
         </div>                           
 <?php
 
