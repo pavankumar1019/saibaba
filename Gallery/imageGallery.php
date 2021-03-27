@@ -48,6 +48,7 @@
 </div>
 <section>
     <div class="container-fluid p-3" style="background: #D32E5EFF;">
+    <h2 align="center">Image Gallery</h2>
         <div class="row">
         <?php
 $imagesDirectory = "../admin-uploads-to-website/insert-admin/images/";
