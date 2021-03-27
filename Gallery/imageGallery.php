@@ -48,21 +48,6 @@
       </ul>
   </div>
 </div>
-<header>
-   
-  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-    <source src="./video/temple.mp4" type="video/mp4">
-  </video>
-  <div class="container h-100">
-    <div class="d-flex h-100 text-center align-items-center">
-      <div class="w-100 text-white">
-        <h1 class="display-3">Om Sai Ram</h1>
-        <p class="lead mb-0">"DM Shri Shirdi Sai Baba Temple"</p>
-        <button type="button" class="btn btn-info">Donation(e-Kanike)</button>
-      </div>
-    </div>
-  </div>
-</header>
 <section>
     <div class="container-fluid p-3" style="background: #D32E5EFF;">
         <div class="row">
