@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="DM Shri Shirdi Sai Baba Temple | #Opp Old Food godown,KGF main Road,Bangarpet 563114,karnataka,India">
-    <link rel="shortcut icon" href="img/om.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../img/om.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DM Shri Shirdi Sai Baba Temple | Bangarpet</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
@@ -19,7 +19,7 @@
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <img src="./assets/baba2.png" width="70" alt="" srcset="">
+    <img src="../assets/baba2.png" width="70" alt="" srcset="">
   </div>
 </nav>
 <div class="collapse" id="navbarToggleExternalContent">
@@ -52,7 +52,7 @@
     <div class="container-fluid p-3" style="background: #D32E5EFF;">
         <div class="row">
         <?php
-$imagesDirectory = "admin-uploads-to-website/insert-admin/images/";
+$imagesDirectory = "../admin-uploads-to-website/insert-admin/images/";
 
 if (is_dir($imagesDirectory))
 {
