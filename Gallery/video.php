@@ -224,7 +224,7 @@ $conn->close();
     <footer>
         <div class="container-fluid">
             <div class="col-md-12">
-            <p style="text-align: center"> Copyright &copy;<script>document.write(new Date().getFullYear())</script>&nbsp;<a href="" style="color:black;">DM SHRI SHIRDI SAI BABA TEMPLE</a> All Rights Reserved</p>
+            <p style="text-align: center"> Copyright &copy;<script>document.write(new Date().getFullYear())</script>&nbsp;<a href="" style="color:white;">DM SHRI SHIRDI SAI BABA TEMPLE</a> All Rights Reserved</p>
             </div>
         </div>
     </footer>
