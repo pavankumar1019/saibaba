@@ -72,8 +72,8 @@ if (is_dir($imagesDirectory))
 ?>
 
            <div class="col">
-           <div class="card" style="width: 18rem;">
-  <?php echo "<img  class='card-img-top p-2' src='../admin-uploads-to-website/insert-admin/images/".$image."'> ";?>
+           <div class="card  p-2" style="width: 18rem;">
+  <?php echo "<img  class='card-img-top' src='../admin-uploads-to-website/insert-admin/images/".$image."'> ";?>
 </div>
         </div>                           
 <?php
