@@ -1,6 +1,6 @@
 <?php
 session_start();
-include('../dbconnection/db.php'); 
+include('conn/connection.php');
 //error_reporting(0);
 if(isset($_POST['login'])){
 	//echo "hello";

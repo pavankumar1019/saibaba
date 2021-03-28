@@ -2,7 +2,7 @@
 
 //process.php
 
-$connect = new PDO("mysql:host=localhost; dbname=sai", "root", "Pavan1019");
+$connect = new PDO("mysql:host=localhost; dbname=u430139865_dm", "u430139865_dm", "P0g/&W2zu+");
 try {
 if(isset($_POST["first_name"]))
 {
@@ -12,7 +12,7 @@ if(isset($_POST["first_name"]))
     // image file directory
     $target = "images/".basename($image);
 
-  $text = trim($_POST["last_name"]),
+  $text = trim($_POST["last_name"]);
 
 
  $query = "

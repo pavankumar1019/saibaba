@@ -1,5 +1,5 @@
 <?php
-include('../dbconnection/db.php'); 
+include('conn/connection.php');
 if (isset($_POST['update'])){
     $id = $_POST['delete_file'];
     $sql = "DELETE FROM tbl_sample WHERE last_name='$id' ";

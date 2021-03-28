@@ -1,5 +1,8 @@
 <?php
-include('../../dbconnection/db.php'); 
+
+//process.php
+
+$connect = new PDO("mysql:host=localhost; dbname=u430139865_dm", "u430139865_dm", "P0g/&W2zu+");
 
 if(isset($_POST["first_name"]))
 {
