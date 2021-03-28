@@ -2,7 +2,7 @@
 
 //process.php
 
-$connect = new PDO("mysql:host=localhost; dbname=u430139865_ydyp", "u430139865_ydyp", "pavan5639");
+$connect = new PDO("mysql:host=localhost; dbname=u430139865_dm", "u430139865_dm", "P0g/&W2zu+");
 
 if(isset($_POST["first_name"]))
 {

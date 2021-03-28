@@ -1,10 +1,5 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "Pavan1019";
-$dbname = "sai";
-// Create connection
-$conn= new mysqli($servername, $username, $password, $dbname);
+include('../dbconnection/db.php'); 
 if (isset($_POST['update'])){
     $id = $_POST['delete_file'];
     $sql = "DELETE FROM tbl_sample WHERE last_name='$id' ";

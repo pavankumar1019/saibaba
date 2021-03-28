@@ -1,5 +1,5 @@
 <?php
-include("conn/connection.php");
+include('../../dbconnection/db.php'); 
 ?>
 
 <html lang="en">
