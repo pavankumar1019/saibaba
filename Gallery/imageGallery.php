@@ -26,22 +26,22 @@
     <span class="text-muted">Opp Old Food godown,KGF main Road,Bangarpet 563114,karnataka,India</span>
     <ul class="nav flex-column">
         <li class="nav-item">
-          <a class="nav-link text-white active" aria-current="page" href="#">Home</a>
+          <a class="nav-link text-white active" aria-current="page" href="../">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="#">Introduction</a>
+          <a class="nav-link text-white" href="../introduction.html">Introduction</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="#aboutTemple">About Temple</a>
+          <a class="nav-link text-white" href="../index.html#aboutTemple">About Temple</a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-white" href="#"aria-disabled="true">Image Gallery</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="#" aria-disabled="true">Video Gallery</a>
+          <a class="nav-link text-white" href="video.php" aria-disabled="true">Video Gallery</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="#" aria-disabled="true">Online Services</a>
+          <a class="nav-link text-white" href="../onlineService/" aria-disabled="true">Online Services</a>
         </li>
       </ul>
   </div>
