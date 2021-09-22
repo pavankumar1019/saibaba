@@ -9,14 +9,14 @@ $home='active'
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="4000">
-      <img  src="./assets/DSC_5923.JPG" class="d-block w-100 mt-5" alt="saibaba temple bangarpet">
+      <img  src="./assets/5923.jpg" class="d-block w-100 mt-5" alt="saibaba temple bangarpet">
       <div class="carousel-caption  d-md-block">
         <h5>Dakshina Shri Shirdi Sai Baba Temple</h5>
         <p>“Om Sai Ram”</p>
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="2000">
-      <img src="./assets/DSC_5934.JPG" class="d-block w-100" alt="saibaba temple bangarpet">
+      <img src="./assets/5934.jpg" class="d-block w-100" alt="saibaba temple bangarpet">
       <div class="carousel-caption  d-md-block">
       <h5>Dakshina Shri Shirdi Sai Baba Temple</h5>
         <p>“Once we surrender our mind to God completely, He will take care of us in every way.”</p>
@@ -30,7 +30,7 @@ $home='active'
       </div>
     </div> -->
     <div class="carousel-item" data-bs-interval="4000">
-      <img src="./assets/DSCN0915.JPG" class="d-block w-100" alt="saibaba temple bangarpet">
+      <img src="./assets/0915.jpg" class="d-block w-100" alt="saibaba temple bangarpet">
       <div class="carousel-caption  d-md-block">
       <h5>Dakshina Shri Shirdi Sai Baba Temple</h5>
         <p>“Once we surrender our mind to God completely, He will take care of us in every way.”</p>
@@ -81,7 +81,7 @@ Tithi-{<span id="tithi"></span>}.
   </div>
   <div class="blog-card alt">
     <div class="meta">
-      <div class="photo" style="background-image: url(./assets/DSCN0914.jpg);"></div>
+      <div class="photo" style="background-image: url(./assets/0914.jpg);"></div>
       <ul class="details">
         <li class="author"><a href="#">Dhakshina Shirdi</a></li>
   
@@ -158,7 +158,7 @@ M.Munimarappa(Founder president of DM.Shirdi Sai Baba Temple Trust) National wor
  
     <a href="#" class="card">
       <div class="card__image">
-        <img src="./assets/DSCN0913.jpg" alt="" />
+        <img src="./assets/0913.jpg" alt="" />
       </div>
       <article class="card__content">
         <h2 class="card__title">Lord Ganesha</h2>
@@ -176,7 +176,7 @@ M.Munimarappa(Founder president of DM.Shirdi Sai Baba Temple Trust) National wor
  
     <a href="#" class="card">
       <div class="card__image">
-        <img src="./assets/DSC_5923.jpg" alt="" />
+        <img src="./assets/5923.jpg" alt="" />
       </div>
       <article class="card__content">
         <h2 class="card__title">Lord Sai Baba</h2>
