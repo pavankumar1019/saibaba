@@ -194,7 +194,7 @@ M.Munimarappa(Founder president of DM.Shirdi Sai Baba Temple Trust) National wor
  
     <a href="#" class="card">
       <div class="card__image">
-        <img src="./assets/temple.png" alt="" />
+        <img src="./assets/temple.PNG" alt="" />
       </div>
       <article class="card__content">
         <h2 class="card__title">Temple Front View</h2>
