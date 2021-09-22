@@ -81,7 +81,7 @@ Tithi-{<span id="tithi"></span>}.
   </div>
   <div class="blog-card alt">
     <div class="meta">
-      <div class="photo" style="background-image: url(./assets/DSCN0915.jpg);"></div>
+      <div class="photo" style="background-image: url(./assets/DSCN0914.jpg);"></div>
       <ul class="details">
         <li class="author"><a href="#">Dhakshina Shirdi</a></li>
   
