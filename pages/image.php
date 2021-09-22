@@ -3,7 +3,7 @@
 <div id="gallery" class="container-fluid">  
  
 <?php
-$imagesDirectory = "../admin-uploads-to-website/insert-admin/images/";
+$imagesDirectory = "./admin-uploads-to-website/insert-admin/images/";
 
 if (is_dir($imagesDirectory))
 {
@@ -25,7 +25,7 @@ if (is_dir($imagesDirectory))
 ?>
 
         
-  <?php echo "<img  class='img-responsive gal' src='../admin-uploads-to-website/insert-admin/images/".$image."'> ";?>                       
+  <?php echo "<img  class='img-responsive gal' src='./admin-uploads-to-website/insert-admin/images/".$image."'> ";?>                       
 <?php
 
 
