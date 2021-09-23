@@ -23,6 +23,6 @@ function active($currect_page){
 }
 ?>
     </section>
-
+<!-- https://www.payumoney.com/paybypayumoney/#/0A842CBED0DEAEAB5376D62214AB441B -->
     <!-- Footer includes -->
  <?php include 'includes/footer.php' ?>
