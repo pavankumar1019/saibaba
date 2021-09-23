@@ -16,7 +16,7 @@ $home='active'
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="2000">
-      <img src="./assets/5934.jpg" class="d-block w-100" alt="saibaba temple bangarpet">
+      <img src="./assets/5934.jpg" class="d-block w-100 mt-5" alt="saibaba temple bangarpet">
       <div class="carousel-caption  d-md-block">
       <h5>Dakshina Shri Shirdi Sai Baba Temple</h5>
         <p>“Once we surrender our mind to God completely, He will take care of us in every way.”</p>
@@ -30,7 +30,7 @@ $home='active'
       </div>
     </div> -->
     <div class="carousel-item" data-bs-interval="4000">
-      <img src="./assets/0915.jpg" class="d-block w-100" alt="saibaba temple bangarpet">
+      <img src="./assets/0915.jpg" class="d-block w-100 mt-5" alt="saibaba temple bangarpet">
       <div class="carousel-caption  d-md-block">
       <h5>Dakshina Shri Shirdi Sai Baba Temple</h5>
         <p>“Once we surrender our mind to God completely, He will take care of us in every way.”</p>
