@@ -12,11 +12,11 @@
             <p class="copyright">PAVAN KUMAR © <script>document.write(new Date().getFullYear())</script>All Rights Reserved @ dmshrishirdisai.com</p>
         </footer>
     </div>
-    <script>
+    <!-- <script>
   $(window).on('load', function () {
     $('#pulse-wrapper').hide();
   });
-</script>
+</script> -->
     <script>
         $(document).ready(function(){
   $(".gal").click(function(){

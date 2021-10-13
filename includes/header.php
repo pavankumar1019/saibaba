@@ -63,12 +63,12 @@
 </style>
 </head>
 <body>
-<div id="pulse-wrapper">
+<!-- <div id="pulse-wrapper">
       <div id="pulse">
-        <span></span> <!-- Wave 1 -->
-        <span></span> <!-- Wave 2 -->
+        <span></span> 
+        <span></span> 
       </div>
-    </div>
+    </div> -->
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Dhakshina Shirdi</a>
