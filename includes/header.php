@@ -37,10 +37,11 @@
 
 #pulse-wrapper {
   display: flex;
-  position: fixed;
+  position: absolute;
   width: 100%;
   height: 100%;
   overflow: hidden;
+  z-index: 3;
 }
 #pulse-wrapper #pulse {
   margin: auto;
