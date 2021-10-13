@@ -8,80 +8,34 @@
 
 
 <url>
-  <loc>http://dmshrishirdisai.com/</loc>
-  <lastmod>2020-10-22T14:45:26+00:00</lastmod>
+  <loc>http://dakshinashirdisai.com/</loc>
+  <lastmod>2021-10-13T04:13:08+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://dmshrishirdisai.com/index.html</loc>
-  <lastmod>2020-10-22T14:45:26+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-<url>
-  <loc>http://dmshrishirdisai.com/video.php</loc>
-  <lastmod>2020-10-22T14:49:34+00:00</lastmod>
+  <loc>http://dakshinashirdisai.com/?page=home</loc>
+  <lastmod>2021-10-13T04:13:08+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://dmshrishirdisai.com/donate.html</loc>
-  <lastmod>2020-10-22T14:45:26+00:00</lastmod>
+  <loc>http://dakshinashirdisai.com/?page=about</loc>
+  <lastmod>2021-10-13T04:13:08+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://dmshrishirdisai.com/admin-uploads-to-website/</loc>
-  <lastmod>2020-10-22T14:49:34+00:00</lastmod>
+  <loc>http://dakshinashirdisai.com/?page=video</loc>
+  <lastmod>2021-10-13T04:13:08+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://dmshrishirdisai.com/video-php/</loc>
-  <lastmod>2020-10-22T14:49:34+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>http://dakshinashirdisai.com/?page=image</loc>
+  <lastmod>2021-10-13T04:13:08+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://dmshrishirdisai.com/video-php/?ND</loc>
-  <lastmod>2020-10-22T14:49:34+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>http://dmshrishirdisai.com/video-php/?MA</loc>
-  <lastmod>2020-10-22T14:49:34+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>http://dmshrishirdisai.com/video-php/?SA</loc>
-  <lastmod>2020-10-22T14:49:34+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>http://dmshrishirdisai.com/video-php/?DA</loc>
-  <lastmod>2020-10-22T14:49:34+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>http://dmshrishirdisai.com/video-php/grid.html</loc>
-  <lastmod>2020-10-18T07:09:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>http://dmshrishirdisai.com/video-php/?NA</loc>
-  <lastmod>2020-10-22T14:49:34+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>http://dmshrishirdisai.com/video-php/?MD</loc>
-  <lastmod>2020-10-22T14:49:34+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>http://dmshrishirdisai.com/video-php/?SD</loc>
-  <lastmod>2020-10-22T14:49:34+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>http://dmshrishirdisai.com/video-php/?DD</loc>
-  <lastmod>2020-10-22T14:49:34+00:00</lastmod>
-  <priority>0.41</priority>
+  <loc>http://dakshinashirdisai.com/?page=register</loc>
+  <lastmod>2021-10-13T04:13:08+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 
 
