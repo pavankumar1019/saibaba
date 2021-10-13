@@ -36,6 +36,7 @@
 }
 
 #pulse-wrapper {
+  display:flex;
   position: fixed;
   width: 100%;
   height: 100%;
