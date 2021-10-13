@@ -45,20 +45,15 @@
       });
       document.getElementById("Gulikhala").innerHTML = gulikhal;
 document.getElementById("Yamagandakhala").innerHTML = yamaganda;
-    </script>
+    </script><script>
+    $('body').hide();
+  $(window).on('load', function () {
+    $('#pulse-wrapper').hide();
+    $('body').show();
+  }) 
+</script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script>
-
-document.onreadystatechange = function() {
-    if (document.readyState !== "complete") {
-        document.querySelector("body").style.visibility = "hidden";
-        document.querySelector("#pulse-wrapper").style.visibility = "visible";
-    } else {
-        document.querySelector("#pulse-wrapper").style.display = "none";
-        document.querySelector("body").style.visibility = "visible";
-    }
-};
-</script>
+   
 </body>
 </html>
