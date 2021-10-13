@@ -50,7 +50,7 @@ document.getElementById("Yamagandakhala").innerHTML = yamaganda;
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script>
   $(window).load(function() {
-    $('#loading').hide();
+    $('#pulse-wrapper').hide();
   });
 </script>
 </body>
