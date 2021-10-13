@@ -46,10 +46,10 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link <?php active('about');?>" href="#" tabindex="-1" >Online Service</a>
+          <a class="nav-link <?php active('onlineservice');?>" href="#" tabindex="-1" >Online Service</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link <?php active('register');?>" href="#" tabindex="-1" >Register</a>
+          <a class="nav-link <?php active('register');?>" href="./?page=register" tabindex="-1" >Register</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="https://www.payumoney.com/paybypayumoney/#/0A842CBED0DEAEAB5376D62214AB441B" tabindex="-1" >Donate</a>
