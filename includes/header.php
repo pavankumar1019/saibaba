@@ -36,12 +36,12 @@
 }
 
 #pulse-wrapper {
-  display: flex;
   position: fixed;
   width: 100%;
   height: 100%;
+  background: white;
   overflow: hidden;
-  z-index: 3;
+  z-index: 9999;
 }
 #pulse-wrapper #pulse {
   margin: auto;
