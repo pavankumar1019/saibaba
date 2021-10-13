@@ -13,17 +13,6 @@
         </footer>
     </div>
     <script>
-        $(window).on('load', function(){
-  setTimeout(removeLoader, 2000); //wait for page load PLUS two seconds.
-});
-function removeLoader(){
-    $( "#pulse-wrapper" ).fadeOut(500, function() {
-      // fadeOut complete. Remove the loading div
-      $( "#pulse-wrapper" ).remove(); //makes page more lightweight 
-  });  
-}
-    </script>
-    <script>
         $(document).ready(function(){
   $(".gal").click(function(){
     // alert("Hello! I am an alert box!!");
@@ -59,6 +48,17 @@ document.getElementById("Yamagandakhala").innerHTML = yamaganda;
     </script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-   
+    <script>
+
+document.onreadystatechange = function() {
+    if (document.readyState !== "complete") {
+        document.querySelector("body").style.visibility = "hidden";
+        document.querySelector("#pulse-wrapper").style.visibility = "visible";
+    } else {
+        document.querySelector("#pulse-wrapper").style.display = "none";
+        document.querySelector("body").style.visibility = "visible";
+    }
+};
+</script>
 </body>
 </html>
