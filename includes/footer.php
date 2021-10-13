@@ -9,7 +9,7 @@
                 <li class="list-inline-item"><a href="#">Terms</a></li>
                 <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
             </ul> -->
-            <p class="copyright">PAVAN KUMAR © <script>document.write(new Date().getFullYear())</script>All Rights Reserved @ dmshrishirdisai.com</p>
+            <p class="copyright">PAVAN KUMAR © <script>document.write(new Date().getFullYear())</script>All Rights Reserved @ dakshinashirdisai.com</p>
         </footer>
     </div>
    
