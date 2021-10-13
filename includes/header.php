@@ -17,58 +17,8 @@
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="src/panchang.js"></script>
 <script src="src/basic-panchanga.js"></script>
-<style>
-  #loading {
-  position: fixed;
-  display: block;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  text-align: center;
-  opacity: 0.7;
-  background-color: #fff;
-  z-index: 99;
-}
-@keyframes pulse_animation {
-  0% { box-shadow: 0 0 0 0 rgba(254, 206, 104, 0.8) }
-  100% { box-shadow: 0 0 0 200px rgba(254, 206, 104, 0) }
-}
-
-#pulse-wrapper {
-  display:flex;
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  background: white;
-  overflow: hidden;
-  z-index: 9999;
-}
-#pulse-wrapper #pulse {
-  margin: auto;
-}
-#pulse-wrapper #pulse span {
-  position: absolute;
-  margin-top: -25px; /* = height / 2 */
-  margin-left: -25px; /* = width / 2 */
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background: #fece68;
-  animation: pulse_animation 1.3s infinite;
-}
-#pulse-wrapper #pulse span:nth-child(2) {
-  animation-delay: 0.3s; /* Start the second wave with some delay */
-}
-</style>
 </head>
 <body>
-<!-- <div id="pulse-wrapper">
-      <div id="pulse">
-        <span></span> 
-        <span></span> 
-      </div>
-    </div> -->
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Dhakshina Shirdi</a>
