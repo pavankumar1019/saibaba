@@ -41,7 +41,26 @@ Your browser does not support the video tag.
     </a>
     
   </li>
-   
+  <li class="grid__item">
+ 
+ <a href="#" class="card">
+   <div class="card__image">
+     <img src="./assets/munimarappa.png" alt="M Munimarappa" />
+   </div>
+   <article class="card__content">
+     <h2 class="card__title">M.Munimarappa</h2>
+     <div class="card__body">
+       <p>Born on / 26th July 1961
+M.Munimarappa(Founder president of DM.Shirdi Sai Baba Temple Trust) National working President of OD (Bhovi) Community Council Of India Father name sri Munithimmaiah, mother name smt Dasamma. President of Shri Nagadeep Credit Co-Operative Society and Shri D.M Sai Educational Institution. Smt.Dasamma Munithimmaiah son M.Munimarappa taken all the role in Developing the temple .The Temple was beyond the Scope of the various Vedanta centers that existed that time. The temple management has brought the priests who were masterd in vedas and highly skilled. The temple Campus is very peace with good environment for all the devotees and visitors.
+</p>
+     </div>
+     <div class="card__footer">
+     Founder president of <span class="tag"> DM.Shirdi Sai Baba Temple </span> <span class="tag">Trust</span>
+     </div>
+   </article>
+ </a>
+ 
+</li>
    
 </ul>
 </section>
