@@ -12,13 +12,13 @@ if(isset($_POST['submit']))
 	 if (mysqli_query($conn, $sql)) {
        echo"
         <script>alert('Thank You!');
-     window.location.replace('../');
+     window.location.replace('../?page=register');
     </script>";
        
                
 	 } else {
         echo "<script>alert('already Done!');
-        window.location.replace('../');
+        window.location.replace('../?page=register');
         </script>";
 	 }
 	 mysqli_close($conn);
