@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/om.png" type="image/gif" sizes="16x16">
     <meta name="description" content="Dakshina Shri Shirdi Sai Baba Temple | #Opp Old Food Godown,KGF Main Road,Bangarpet 563114,Karnataka,India.">
   <meta name="keywords" content="sai baba temple bangarpet,dm shri shirdi sai baba temple, bangarpet kolar sai baba temple, saibabatemple bangarpet,munimarappa sai baba temple,beautiful temple in bangarpet, temple in karnataka">
   <meta name="author" content="M.Munimarappa">
