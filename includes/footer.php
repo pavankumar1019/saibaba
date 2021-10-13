@@ -48,8 +48,7 @@ document.getElementById("Yamagandakhala").innerHTML = yamaganda;
     </script><script>
     $('body').hide();
   $(window).on('load', function () {
-    $('#pulse-wrapper').hide();
-    $('body').show();
+    alert("hello");
   }) 
 </script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
