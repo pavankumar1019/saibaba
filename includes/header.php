@@ -49,6 +49,9 @@
           <a class="nav-link <?php active('about');?>" href="#" tabindex="-1" >Online Service</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link <?php active('register');?>" href="#" tabindex="-1" >Register</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="https://www.payumoney.com/paybypayumoney/#/0A842CBED0DEAEAB5376D62214AB441B" tabindex="-1" >Donate</a>
         </li>
       </ul>
