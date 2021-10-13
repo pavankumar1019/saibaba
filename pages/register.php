@@ -1,7 +1,7 @@
 
 
     <!-- Default form login -->
-<form class="text-center border border-light p-5" action="dm_register.php" method="POST">
+<form class="text-center border border-light p-5" action="./pages/dm_register.php" method="POST">
 
 <p class="h4 mb-4">Register !</p>
 
