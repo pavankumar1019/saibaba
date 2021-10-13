@@ -15,7 +15,7 @@
     <script>
   $(window).on('load', function () {
     $('#pulse-wrapper').hide();
-  }) 
+  });
 </script>
     <script>
         $(document).ready(function(){
